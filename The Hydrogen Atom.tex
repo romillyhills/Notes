@@ -1,0 +1,205 @@
+\documentclass[12pt,a4paper]{report}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{amsmath}
+\linespread{1.3}
+
+\begin{document}
+
+\begin{titlepage}
+	\begin{center}
+		\large
+		\vspace*{1cm}
+        		
+ 		\textbf{The Hydrogen Atom}
+        
+		\vspace{0.5cm}
+		By
+        
+		\vspace{1.5cm}
+        
+		\textbf{Romilly Djee Yin Hills}\\
+
+		\vspace{1.5cm}
+
+		\today \\
+		\copyright Romilly Djee Yin Hills\\
+        
+	\end{center}
+\end{titlepage}
+
+%%%%%%%%%%
+
+\chapter{The Hydrogen Atom}
+\label{The Hydrogen Atom}
+
+Notes on the exact derivation of the n energy levels of the hydrogen atom in three dimensions.
+
+% http://users.aber.ac.uk/ruw/teach/237/hatom.php
+
+\section{Exact energy levels}
+\label{section_exact}
+	The time independent Schr{\"o}dinger equation
+	\begin{equation}
+		\label{tise}
+		\hat{H} \Psi \left( r,\theta,\phi \right) = E \Psi \left( r,\theta,\phi \right)
+	\end{equation}
+	\begin{align}
+		\label{tise_definitions}
+		\hat{H} = \hat{T} + V \hspace{1cm} \hat{T} = -\frac{\hbar^2}{2\mu}\nabla^2 \hspace{1cm} V = \frac{1}{4\pi\varepsilon_0}\frac{Qq}{|\vec{r}-\vec{R}|}
+	\end{align}
+	where $\vec{R}$ is the location of the atomic nucleus, $\vec{r}$ is the location of the electron, $Q$ is the charge of the nucleus, $q$ is the charge of the electron. To reduce the two body problem to a one body problem we have also introduced the reduced mass of the hydrogen atom
+	\begin{align}
+		\frac{1}{\mu} = \frac{1}{m_e}+\frac{1}{m_p}
+	\end{align}
+	where $m_e$ is the electron mass and $m_p$ is the mass of a proton \cite{Abramowitz and Stegun 7}.
+
+	In three dimensional, sperical co-ordinateds $\nabla^2 f$ is defined as
+	\begin{equation}
+		\nabla^2 f = \frac{1}{r}\frac{\partial^2}{\partial r^2} \left( rf \right) + \frac{1}{r^2 sin\left(\theta\right)}\frac{\partial}{\partial\theta}\left(sin\left(\theta\right)\frac{\partial}{\partial\theta}f\right) + \frac{1}{r^2 sin\left(\theta\right)}\frac{\partial^2}{\partial\phi^2}f
+	\end{equation}
+	with $\theta$ defined as the polar coordinate ($0<\theta<\pi$) and $\phi$ is the azimuthal coordinate ($0<\phi<2\pi$).\\
+	We would like $\Psi \left( r,\theta,\phi \right)$ to be of the form
+	\begin{equation}
+		\label{Psi}
+		\Psi \left( r,\theta,\phi \right) = R\left(r\right)Y\left(\theta,\phi\right)
+	\end{equation}
+%	where $Y^m_l\left(\theta,\phi\right)$ is the spherical harmonic, which is defined as 
+%	\begin{equation}
+%		Y^m_l\left(\theta,\phi\right) = \sqrt{\frac{2l+1}{4\pi}\frac{\left(l-m\right)!}{\left(l+m\right)!}}P^m_l\left(cos\left(\theta\right)\right)e^{im\phi}
+%	\end{equation}
+%	and $P^m_l\left(cos\left(\theta\right)\right)$ is the associated Legendre polynomial, which is defined as 
+%	\begin{equation}
+%		P^m_l\left(x\right) = \frac{\left(-1\right)^m}{2^l l!}\left(1-x^2\right)^\frac{m}{2}\frac{\partial^{l+m}}{\partial x^{l+m}}\left(x^2 -1\right)^l
+%	\end{equation}
+	Equation (\ref{tise}) can now be evaluated with equation (\ref{Psi}) and with separation of variables, the radial component can be written as
+	\begin{equation}
+		\label{radial_component}
+		\frac{\partial^2}{\partial r^2}R+\frac{2}{r}\frac{\partial}{\partial r}R+\left(\frac{2\mu}{\hbar^2}\left(E-\frac{Qq}{4\pi\epsilon_0 r}\right)-\frac{l\left(l+1\right)}{r^2}\right)R=0
+	\end{equation}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% this solution kind of works, but it's not very good
+% it would be a good idea to re-visit the problem with a better solution
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	which is not directly solvable (the details of this evaluation can be found in the appendix section \ref{Evaluating the Hydrogen atom PDEs}). However, at large values of $r$, the $1/r$ terms will tend to zero, and that the electron density should also tend to zero so that we require a decaying solution of the form
+	\begin{equation}
+		R_\infty = e^{-\frac{r}{a}}
+	\end{equation}
+%	\begin{equation}
+%		\frac{\partial^2}{\partial r^2}R_\infty+\frac{2\mu}{\hbar^2}ER_\infty = 0
+%	\end{equation}
+%	which has the solution
+%	\begin{equation}
+%		R_\infty = c_5 e^{i\sqrt{\frac{2\mu E}{\hbar^2}}r}+c_6 e^{-i\sqrt{\frac{2\mu E}{\hbar^2}}r}
+%	\end{equation}
+	which when used in equation (\ref{radial_component}) produces
+	\begin{equation}
+		\frac{\hbar^2}{2\mu a^2}-\left(\frac{\hbar^2}{\mu a}+\frac{Qq}{4\pi \epsilon_0}\right)\frac{1}{r}-\frac{\hbar^2 l\left(l+1\right)}{2\mu r^2}=E
+	\end{equation}
+	with the previous requirement of $1/r \rightarrow 0$
+	\begin{equation}
+		E_1=-\frac{\hbar^2}{2\mu a^2}
+	\end{equation}
+	and from the prefactor of the $1/r$ terms we can determine that 
+	\begin{equation}
+		a=-\frac{\hbar^2 4\pi\epsilon_0}{Qq\mu}
+	\end{equation}
+	and we finaly have the ground state energy 
+	\begin{equation}
+		E_1=-\frac{Q^2 q^2 \mu}{32\hbar^2 \pi^2 \epsilon_0^2} \approx -13.598547375016173 eV
+	\end{equation}
+	The full quantised energy (that requires derivation) is 
+	\begin{equation}
+		E_n=-\frac{1}{n^2}\frac{Q^2 q^2 \mu}{32\hbar^2 \pi^2 \epsilon_0^2}
+	\end{equation}
+	and the next four energy levels are 
+	\begin{align}
+		E_2&=-3.399636843754043eV\\
+		E_3&=-1.51094970833513eV\\
+		E_4&=-0.8499092109385108eV\\
+		E_5&=-0.5439418950006469eV
+	\end{align}
+
+%%%%%%%%%%
+
+\chapter{Appendix}
+\label{Appendix}
+
+\section{Evaluating the Hydrogen atom PDEs}
+\label{Evaluating the Hydrogen atom PDEs}
+
+	Using equation (\ref{tise}) with the definitions in (\ref{tise_definitions}) and the separable wave function in equation (\ref{Psi}) we can start to evaluate the Schr{\"o}dinger equation
+
+	\begin{equation}
+		\frac{1}{r}\frac{\partial^2}{\partial r^2}\left(rRY\right)+\frac{1}{r^2 sin\left(\theta\right)}\frac{\partial}{\partial\theta}\left(sin\left(\theta\right)\frac{\partial}{\partial\theta}RY\right)+\frac{1}{r^2 sin^2\left(\theta\right)}\frac{\partial^2}{\partial\phi^2}RY+\frac{2\mu}{\hbar^2}\left(E-\frac{Qq}{4\pi\varepsilon_0 r}\right)RY=0
+	\end{equation}
+	The radial and angular terms can then be grouped by multiplying through by $r^2$ and dividing by $RY$ to produce
+	\begin{equation}
+		\frac{r}{R}\frac{\partial^2}{\partial r^2}\left(rR\right)+\frac{1}{Ysin\left(\theta\right)}\frac{\partial}{\partial\theta}\left(sin\left(\theta\right)\frac{\partial}{\partial\theta}Y\right)+\frac{1}{Ysin^2\left(\theta\right)}\frac{\partial^2}{\partial\phi^2}Y+\frac{2\mu r^2}{\hbar^2}\left(E-\frac{Qq}{4\pi\varepsilon_0 r}\right) = 0
+	\end{equation}
+	Each component can be equated to some constant $A$
+	\begin{equation}
+		\label{solve_for_E}
+		\frac{r}{R}\frac{\partial^2}{\partial r^2}\left(rR\right)+\frac{2\mu r^2}{\hbar^2}\left(E-\frac{Qq}{4\pi\varepsilon_0 r}\right) -A= 0
+	\end{equation}
+	\begin{equation}
+		\frac{1}{Ysin\left(\theta\right)}\frac{\partial}{\partial\theta}\left(sin\left(\theta\right)\frac{\partial}{\partial\theta}Y\right)+\frac{1}{Ysin^2\left(\theta\right)}\frac{\partial^2}{\partial\phi^2}Y +A = 0
+	\end{equation}
+	We can then serparate the $\theta$ and $\phi$ conponents by requiring $Y\left(\theta,\phi\right)=\Theta\left(\theta\right)\Phi\left(\phi\right)$
+	\begin{equation}
+		\Phi sin\left(\theta\right)\frac{\partial}{\partial\theta}\left(sin\left(\theta\right)\frac{\partial}{\partial\theta}\Theta\right)+\Theta\frac{\partial^2}{\partial\phi^2}\Phi + A\Theta\Phi sin^2\left(\theta\right) = 0
+	\end{equation}
+	and we have the two equations
+	\begin{equation}
+		\label{solve_for_B}
+		\frac{\partial^2}{\partial\phi^2}\Phi+B\Phi = 0
+	\end{equation}
+	\begin{equation}
+		\label{solve_for_A}
+		\frac{sin\left(\theta\right)}{\Theta}\frac{\partial}{\partial\theta}\left(sin\left(\theta\right)\frac{\partial}{\partial\theta}\Theta\right)+Asin^2\left(\theta\right)-B=0
+	\end{equation}
+	We can then solve equation (\ref{solve_for_B}) to find $B$, equation (\ref{solve_for_A}) to find $A$ and equation (\ref{solve_for_E}) to find the energy E. Equation (\ref{solve_for_B}) has the solution
+	\begin{equation}
+		\Phi\left(\phi\right) = c_1 e^{im\phi}+c_2 e^{-im\phi}
+	\end{equation}
+	with $B=m^2$ where $m$ must be an integer number to prevent the value of the azimuth wave function being different for $\phi = 0$ and $\phi = 2\pi$. 
+
+	For the $\theta$ dependence, equation (\ref{solve_for_A}) requires a bit more manipulation; we should first introduce a few more definitions
+	\begin{align}
+		\Theta\left(\theta\right) = P\left(cos\left(\theta\right)\right) \hspace{1cm} x=cos\left(\theta\right) \hspace{1cm} \frac{\partial}{\partial\theta} = \frac{\partial x}{\partial\theta}\frac{\partial}{\partial x} = -sin\left(\theta\right)\frac{\partial}{\partial x}
+	\end{align}
+	We can now write equation (\ref{solve_for_A}) as
+	\begin{equation}
+		-\frac{\partial}{\partial x}\left(sin^2\left(\theta\right)\frac{\partial}{\partial x}P\right)+\left(A-\frac{m^2}{sin^2\left(\theta\right)}\right)P=0
+	\end{equation}
+	and with the trigonometric identiy $sin^2\left(\theta\right)= 1-cos\left(\theta\right)^2$ we can write
+	\begin{equation}
+		\frac{\partial}{\partial x}\left(\left(1-x^2\right)\frac{\partial}{\partial x}P\right)+\left(A-\frac{m^2}{1-x^2}\right)P=0
+	\end{equation}
+	Evaluating the differental 
+	\begin{equation}
+		\frac{\partial}{\partial x}\left(\left(1-x^2\right)\frac{\partial}{\partial x}P\right) = \left(1-x^2\right)\frac{\partial^2}{\partial x^2}P-2x\frac{\partial}{\partial x}P
+	\end{equation}
+	results in the partial differential equation
+	\begin{equation}
+		\left(1-x^2\right)\frac{\partial^2}{\partial x^2}P-2x\frac{\partial}{\partial x}+ \left(A-\frac{m^2}{1-x^2}\right)P=0
+	\end{equation}
+	which with $A=l\left(l+1\right)$ has the solution of the associated Legendre polynomials \cite{Abramowitz and Stegun 124}
+	\begin{equation}
+		P=c_3 P^m_l\left(x\right)+c_4 Q^m_l\left(x\right)
+	\end{equation}
+	where $l$ is an integer.
+
+	With the definition of $A$ we can write equation (\ref{solve_for_E}) as 
+	\begin{equation}
+		\frac{\partial^2}{\partial r^2}R+\frac{2}{r}\frac{\partial}{\partial r}R+\left(\frac{2\mu}{\hbar^2}\left(E-\frac{Qq}{4\pi\epsilon_0 r}\right)-\frac{l\left(l+1\right)}{r^2}\right)R=0
+	\end{equation}
+
+\begin{thebibliography}{10}
+\bibitem{Abramowitz and Stegun 7} Abramowitz and Stegun 1972; Zwillinger 1997, p. 7
+\bibitem{Abramowitz and Stegun 124} Abramowitz and Stegun 1972; Zwillinger 1997, p. 124
+
+\end{thebibliography}
+
+\end{document}
