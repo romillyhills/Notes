@@ -1,0 +1,100 @@
+\documentclass[12pt,a4paper]{report}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{amsmath}
+\linespread{1.3}
+
+\begin{document}
+
+\begin{titlepage}
+	\begin{center}
+		\large
+		\vspace*{1cm}
+        		
+ 		\textbf{Linear Regression}
+        
+		\vspace{0.5cm}
+		By
+        
+		\vspace{1.5cm}
+        
+		\textbf{Romilly Djee Yin Hills}\\
+
+		\vspace{1.5cm}
+
+		\today \\
+		\copyright Romilly Djee Yin Hills\\
+        
+	\end{center}
+\end{titlepage}
+
+%%%%%%%%%%
+
+\chapter{Linear Regression}
+	\section{Ordinary Least Squares}
+		Commonly referred to as a 'line of best fit', this is a method of fitting noisy data to linear model, $y=mx+c$ by minimising some additional error.
+
+		%%%%%%%%%%
+		%%%%%%%%%%
+		%%%%%%%%%%
+		%%%%%%%%%%
+		%%%%%%%%%%
+
+		\subsection{Bivariate Case}
+		The data is desired to be of the form
+		\begin{equation}
+			y_{i}=b_{0}+b_{1}x_{i}+e_{i}
+			\label{ols-start}
+		\end{equation}
+		where $b_{0}$ is the $y$ intercept, $b_{1}$ is the gradient, $e_{i}$ is some noise included in the data and the subscript $i$ denotes the $i$th data point up to $N$. To find the best line of best fit, minimise the sum of squared errors (SSE) with respect to the $y$ intercept and the gradient. The sum of squared errors is expressed as
+		\begin{equation}
+			SSE=\sum e_{i}^{2}.
+		\end{equation}
+		Then with Equation (\ref{ols-start}) the SSE can be expressed as
+		\begin{equation}
+			SSE=\sum \left(y_{i}-b_{0}-b_{1}x_{i}\right)^{2}.
+		\end{equation}
+		The minimum with respect to $b_{0}$ is then found with
+		\begin{equation}
+			\frac{\partial}{\partial b_{0}}SSE=\sum -2\left(y_{i}-b_{0}-b_{1}x_{i}\right)=0.
+			\label{minb0}
+		\end{equation}
+		Likewise, the minimum with respect to $b_{1}$ is then found with
+		\begin{equation}
+			\frac{\partial}{\partial b_{1}}SSE=\sum -2x_{i}\left(y_{i}-b_{0}-b_{1}x_{i}\right)=0.
+			\label{minb1}
+		\end{equation}
+		Using Equation (\ref{minb0}) and Equation (\ref{minb1}) as a set of simultaneous equations, an expression for $b_{0}$ and $b_{1}$ can be obtained. Writing Equation (\ref{minb0}) in the form
+		\begin{equation}
+			\sum y_{i}-\sum b_{0}- \sum b_{1}x_{i}=0
+		\end{equation}
+		allows the substitution $\sum b_{0}=Nb_{0}$ as $b_{0}$ is constant for all data points. Then $b_{1}$ can be expressed as
+		\begin{equation}
+			b_{0}=\frac{\sum y_{i} -b_{1}\sum x_{i}}{N}.
+			\label{ols-b0}
+		\end{equation}
+		Then to obtain $b_{1}$, Equation (\ref{minb1}) should be expressed as
+		\begin{equation}
+			\sum x_{i}y_{i}-b_{0}\sum x_{i}-b_{1}\sum x_{i}^{2}=0.
+		\end{equation}
+		With the expression for $b_{0}$ from Equation (\ref{ols-b0}), this becomes
+		\begin{equation}
+			\sum x_{i}y_{i}-\frac{\sum y_{i} -b_{1}\sum x_{i}}{N}\sum x_{i}-b_{1}\sum x_{i}^{2}=0
+		\end{equation}
+		and $b_{1}$ can then be expressed as
+		\begin{equation}
+			b_{1}=\frac{\sum x_{i}y_{i}-\frac{\sum x_{i} \sum y_{i}}{N}}{\sum x_{i}^{2}-\frac{\left(\sum x_{i}\right)^{2}}{N}}.
+			\label{ols-b1}
+		\end{equation}
+		With the expression for $b_{0}$ from equation (\ref{ols-b0}) and the expression for $b_{1}$ from equation (\ref{ols-b1}) we can create a linear model of the form $y=mx+c$ with the substitutions $m = b_{1}$ and $c = b_{0}$. We finaly have 
+		\begin{equation}
+			y = b_{1}x + b_{0}
+		\end{equation}
+
+		%%%%%%%%%%
+		%%%%%%%%%%
+		%%%%%%%%%%
+		%%%%%%%%%%
+		%%%%%%%%%%
+
+
+\end{document}
