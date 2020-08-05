@@ -96,5 +96,113 @@
 		%%%%%%%%%%
 		%%%%%%%%%%
 
+		\subsection{Multiple Linear Regression}
+		Here we examine the case where we desire a relation between multiple non-interacting variables and our value to predict
+		\begin{equation}
+			y = b_{0} + b_{1}x_{1}+b_{2}x_{2} + ... + b_{k}x_{k}
+			\label{multiple_y}
+		\end{equation}
+		with $N$ data points of the form
+		\begin{equation}
+			y_{i} = b_{0} + b_{1}x_{1i}+b_{2}x_{2i} + ... + b_{k}x_{ki} + e_{i}
+			\label{multiple_yi}
+		\end{equation}
+		where $i$ ranges from one to $N$ and $e_{i}$ is some noise included in the data. We again are aiming to minimise the sum of squared errors (SSE) which we will restate as 
+		\begin{equation}
+			SSE=\sum e_{i}^{2}.
+			\label{SSE}
+		\end{equation}
+		To account for multiple varaibles and data points we can rewrite equation (\ref{multiple_yi}) with vectors and matrices
+		\begin{equation}
+			\vec{Y} = X\vec{B} + \vec{E}
+		\end{equation}
+		where
+		\begin{align}
+			\vec{Y} = \left[\begin{matrix}
+					y_{1}\\
+					y_{2}\\
+					y_{N}
+				\end{matrix}\right]
+			\hspace{1cm}
+			X = \left[\begin{matrix} 
+					1 & x_{11} & x_{12} & ... & x_{1k}\\
+					1 & x_{21} & x_{22} & ... & x_{2k}\\
+					1 & x_{N1} & x_{N2} & ... & x_{Nk}
+				\end{matrix}\right]
+			\hspace{1cm}
+			\vec{B} = \left[\begin{matrix}
+					b_{0}\\
+					b_{1}\\
+					b_{k}
+				\end{matrix}\right]
+			\hspace{1cm}
+			\vec{e} = \left[\begin{matrix}
+					e_{1}\\
+					e_{2}\\
+					e_{N}
+				\end{matrix}\right].
+		\end{align}
+		We can then use these definitions in equation (\ref{SSE}) to find
+		\begin{align}
+			\sum e_{i}^{2} &= e^{T}\cdot e = \left(\vec{Y} - \vec{B}X\right)^{T}\cdot \left(\vec{Y} - X\vec{B}\right)\\
+			&= \vec{Y}^{T}\vec{Y} - \vec{Y}^{T}X\vec{B}- \vec{B}^{T}X^{T}\vec{Y} + \vec{B}^{T}X^{T}X\vec{B}
+		\end{align}
+		where the superscript $T$ denotes the transpose. From here onwards, I will use 1x2 vectors and 2x2 matrices to provide worked examples of key points, as opposed to a fully proven derivation. To which point we can show that 
+		\begin{align}
+			\vec{Y}^{T}X\vec{B} &= \left[y_{1}, y_{2}\right]
+			\left[\begin{matrix}
+					b_{0}+ b_{1}x_{11}\\
+					b_{0}+b_{1}x_{21}
+			\end{matrix}\right]
+			= y_{1}\left(b_{0}+b_{1}x_{11}\right) + y_{2}\left(b_{0}+b_{1}x_{21}\right)\\
+			\vec{B}^{T}X^{T}\vec{Y} &=\left[b_{0}+ b_{1}x_{11} , b_{0}+b_{1}x_{21}\right] 
+			\left[\begin{matrix}
+					y_{1}\\
+					y_{2}
+			\end{matrix}\right]
+			= y_{1}\left(b_{0}+b_{1}x_{11}\right) + y_{2}\left(b_{0}+b_{1}x_{21}\right)
+		\end{align}
+		and we can write 
+		\begin{equation}
+			\sum e_{i}^{2} =\vec{Y}^{T}\vec{Y} - 2\vec{Y}^{T}X\vec{B}+ \vec{B}^{T}X^{T}X\vec{B}.
+		\end{equation}
+		In order to find the minimum error with respect to $\vec{B}$, we find when the gradient is equal to zero
+		\begin{equation}
+			\frac{\partial}{\partial\vec{B}} e^{T}\cdot e = 0.
+			\label{minSSE}
+		\end{equation}
+		Here I will show a 2x2 example of this calculation; we know the expanded version of $\vec{Y}^{T}X\vec{B}$, so we now need to find $\vec{B}^{T}X^{T}X\vec{B}$
+		\begin{align}
+			\vec{B}^{T}X^{T} &=\left[b_{0}+ b_{1}x_{11} , b_{0}+b_{1}x_{21}\right]\\
+			\vec{B}^{T}X^{T}X &=\left[2b_{0}+ b_{1}\left(x_{11}+x_{21}\right) , b_{0}\left(x_{11}+x_{21}\right) + b_{1}\left(x_{11}^{2}+x_{21}^{2}\right)\right]\\
+			\vec{B}^{T}X^{T}X\vec{B} &= 2b_{0}^{2} + 2b_{0}b_{1}\left(x_{11}+x_{21}\right)+b_{1}^{2}\left(x_{11}^{2}+x_{21}^{2}\right).
+		\end{align}
+		With these expanded expressions we can now find the partial derivitives in equation (\ref{minSSE}). The first term $\vec{Y}^{T}\vec{Y}$ has no  dependency on $\vec{B}$ and so will always be zero. For the second term we have
+		\begin{align}
+			\frac{\partial}{\partial b_{0}} \vec{Y}^{T}X\vec{B} &= y_{1} + y_{2}\\
+			\frac{\partial}{\partial b_{1}} \vec{Y}^{T}X\vec{B} &= y_{1}x_{11} + y_{2}x_{21}
+		\end{align}
+		which we can restate in matrix form as 
+		\begin{equation}
+			\frac{\partial}{\partial \vec{B}} \vec{Y}^{T}X\vec{B} = X^{T}\vec{Y}.
+		\end{equation}
+		For the second term we have
+		\begin{align}
+			\frac{\partial}{\partial b_{0}} \vec{B}^{T}X^{T}X\vec{B} &= 4b_{0}+2b_{1}\left(x_{11}+x_{21}\right)\\
+			\frac{\partial}{\partial b_{1}} \vec{B}^{T}X^{T}X\vec{B} &= 2b_{0}\left(x_{11}+x_{21}\right) + 2b_{1}\left(x_{11}^{2}+x_{21}^{2}\right)
+		\end{align}
+		which, after recognising the expansion of $X^{T}X$ we can write these two partial derivites as 
+		\begin{equation}
+			\frac{\partial}{\partial \vec{B}} \vec{B}^{T}X^{T}X\vec{B} = 2X^{T}X\vec{B}.
+		\end{equation} 
+		We can now combine these definitions to get the result of equation (\ref{minSSE})
+		\begin{equation}
+		\frac{\partial}{\partial\vec{B}} e^{T}\cdot e = -2X^{T}\vec{Y} + 2X^{T}X\vec{B} = 0
+		\end{equation}
+		which can simply be rearraged to make $\vec{B}$ the subject
+		\begin{equation}
+			\vec{B} = \left(X^{T}X\right)^{-1}X^{T}\vec{Y}.
+		\end{equation}
+		The above relation can be used to calculate the components of $\vec{B}$ and substituted into equation (\ref{multiple_y}) to produce an equation for the multiple linear regression line.
 
 \end{document}
