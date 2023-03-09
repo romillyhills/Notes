@@ -1,0 +1,50 @@
+ClearAll["Global`*"]
+(*comment*)
+(*en=0.5;*)
+n = 2000;
+en = Array[(# - 1)/n &, n];
+t = Array[#*0 &, n];
+(**en=0.55*10^-3;**)
+py = 0.25;
+h = 0.25;
+u = 1/Cosh[x];
+
+Do[t[[i]] = 
+  Re[(1/(2*Cos[
+          1/h*NIntegrate[
+            Sqrt[(en[[i]] - u)^2 - 
+              py^2], {x, -ArcCosh[1/(en[[i]] + py)], 
+             ArcCosh[1/(en[[i]] + py)]}]]*(-Exp[
+             2*1/h*NIntegrate[
+               Sqrt[py^2 - (en[[i]] - u)^2], {x, -ArcCosh[
+                  1/(en[[i]] - py)], -ArcCosh[1/(en[[i]] + py)]}]] + 
+           1/16*Exp[-2*1/h*
+              NIntegrate[
+               Sqrt[py^2 - (en[[i]] - u)^2], {x, -ArcCosh[
+                  1/(en[[i]] - py)], -ArcCosh[1/(en[[i]] + py)]}]]) + 
+        I*Sin[1/h*
+           NIntegrate[
+            Sqrt[(en[[i]] - u)^2 - 
+              py^2], {x, -ArcCosh[1/(en[[i]] + py)], 
+             ArcCosh[1/(en[[i]] + py)]}]]))*(1/(2*
+         Cos[1/h*NIntegrate[
+            Sqrt[(en[[i]] - u)^2 - 
+              py^2], {x, -ArcCosh[1/(en[[i]] + py)], 
+             ArcCosh[1/(en[[i]] + py)]}]]*(-Exp[
+             2*1/h*NIntegrate[
+               Sqrt[py^2 - (en[[i]] - u)^2], {x, -ArcCosh[
+                  1/(en[[i]] - py)], -ArcCosh[1/(en[[i]] + py)]}]] + 
+           1/16*Exp[-2*1/h*
+              NIntegrate[
+               
+               Sqrt[py^2 - (en[[i]] - u)^2], {x, -ArcCosh[
+                  1/(en[[i]] - py)], -ArcCosh[1/(en[[i]] + py)]}]]) - 
+        I*Sin[1/h*
+           NIntegrate[
+            Sqrt[(en[[i]] - u)^2 - 
+              py^2], {x, -ArcCosh[1/(en[[i]] + py)], 
+             ArcCosh[1/(en[[i]] + py)]}]]))], {i, n}]
+(*T=t22*Conjugate[t22]*)
+t
+ListPlot[Transpose[{en, t}], PlotRange -> {{0, 1}, {0, 1}}, 
+ AxesLabel -> {En, T}]

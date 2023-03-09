@@ -1,0 +1,78 @@
+ClearAll["Global`*"]
+u0 = 1;
+cap = 1;
+h = 0.1;
+imax = 15;(* number of energy guesses *)
+pyin = 0.76;
+py = 0.76;
+hpy = u0/101;
+
+ee = Array[#*0 &, 100];
+pp = Array[#*0 &, 100];
+enin = Array[#*0 &, imax];
+
+(*initial energy guesses*)
+For[i = 1, i <= imax, i = i + 1,
+ For[j = 1, j <= 100, j = j + 1,
+  en = -py + hpy*j;
+  ee[[j]] = en;
+  A1 = u0/(en + py);
+  (*a=Log[A1+Sqrt[A1^2-1]];*)
+  a = ArcCosh[1/(en + py)];
+  P = Re[NIntegrate[((en - 1/Cosh[x])^2 - py^2)^(1/2), {x, -a, a}]];
+  pp[[j]] = P - h*Pi*(i - 0.5);
+  If[j > 1,
+   If[pp[[j]]*pp[[j - 1]] <= 0,
+    enin[[i]] = en;
+    , u0 = 1]
+   , u0 = 1]
+  ]
+ (*Print[ListPlot[Transpose[{pp,ee}]]];*)
+ ]
+enin
+
+pya = Array[#*0 &, 100];
+eres = Array[#*0 &, {100, 15}];
+npymax = 75;
+delte = 0.01;
+
+For[i = 1, i <= npymax, i = i + 1,
+ py = pyin - 0.01*i;
+ pya[[i]] = py;
+ For[j = 1, j <= 10, j = j + 1,
+  If[i == 1, en = enin[[j]], eres[[i - 1, j]] = Re[en]];
+  For[k = 1, k <= 11, k = k + 1,
+   A1 = u0/(en + py);
+   a = ArcCosh[1/(en + py)];
+   P = NIntegrate[((en - 1/Cosh[x])^2 - py^2)^(1/2), {x, -a, a}];
+   A2 = u0/(en - py);
+   F1 = P;
+   F = P - h*(Pi*(j - 0.5));
+   en = en + delte;
+   
+   A1 = u0/(en + py);
+   a = ArcCosh[1/(en + py)];
+   P = NIntegrate[((en - 1/Cosh[x])^2 - py^2)^(1/2), {x, -a, a}];
+   A2 = u0/(en - py);
+   
+   F2 = P;
+   Fdir = (F2 - F1)/delte;
+   en = en - delte;
+   en = en - F/Fdir;
+   ]
+  ]
+ ]
+
+(*ListPlot[Transpose[{pya,eres[[All,1]]}]]*)
+ListPlot[{
+  Transpose[{pya, eres[[All, 1]]}],
+  Transpose[{pya, eres[[All, 2]]}],
+  Transpose[{pya, eres[[All, 3]]}],
+  Transpose[{pya, eres[[All, 4]]}],
+  Transpose[{pya, eres[[All, 5]]}],
+  Transpose[{pya, eres[[All, 6]]}],
+  Transpose[{pya, eres[[All, 7]]}],
+  Transpose[{pya, eres[[All, 8]]}],
+  Transpose[{pya, eres[[All, 9]]}],
+  Transpose[{pya, eres[[All, 10]]}](**)
+  }, Joined -> True]

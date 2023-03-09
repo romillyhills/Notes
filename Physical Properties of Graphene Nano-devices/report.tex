@@ -1,0 +1,339 @@
+\documentclass[12pt,a4paper]{report}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage[nottoc,numbib]{tocbibind}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\thepage}
+\lhead{\thechapter . \leftmark}
+\renewcommand{\chaptermark}[1]{ \markboth{#1}{} }
+
+\linespread{1.3}
+
+\DeclareMathOperator\arccosh{arccosh}
+\DeclareMathOperator\sgn{sgn}
+
+\begin{document}
+	\input{title/title}
+	%\include{statement/statement}
+	\include{abstract/abstract}
+	\include{aims/aims}
+	\include{novelty/novelty}
+	\include{publications/publications}
+	\include{acknowledgements/acknowledgements}
+	\tableofcontents
+	%\listoffigures
+	\include{introduction/introduction}
+	\include{potential-step/potential-step}
+	\include{potential-barrier/potential-barrier}
+	\include{asymmetrical-barrier/asymmetrical-barrier}
+	\include{experimental/experimental}
+	\include{weyl-fermions/weyl-fermions}
+	\include{wkb-potential-barrier/wkb-potential-barrier}
+	\include{conclusion/conclusion}
+	\include{appendix/appendix}
+	\begin{thebibliography}{10}
+
+\bibitem{b68}Das Adsorptionsverhalten sehr dünner Kohlenstoff-Folien\\
+H. P. Boehm, A. Clauss, G. O. Fischer and U. Hofmann,
+Das Adsorptionsverhalten sehr dünner Kohlenstoff-Folien. Z. anorg. allg. Chem., {\bf 316}: 119–127, (1962).
+
+\bibitem{b64}Course of Theoretical Physics, Volume 5, Statistical Physics, Page 402\\
+L. D. Landau and E. M. Lifshitz,
+Pergamon Press LTD. (1960)
+
+\bibitem{b69}Bemerkungen über Umwandlungstemperaturen\\
+R. Peierls,
+Helv. Phys. Acta {\bf 7}, 81 (1934).
+
+\bibitem{b65}Electric Field Effect in Atomically Thin Carbon Films\\
+K. S. Novoselov, A. K. Geim, S. V. Morozov, D. Jiang, Y. Zhang, S. V. Dubonos, I. V. Grigorieva and A. A. Firsov
+Science {\bf 306}, pp. 666-669, (2004).
+
+\bibitem{b70}Graphene: Status and Prospects\\
+A. K. Geim,
+Science {\bf 324}, 1530, (2009).
+
+\bibitem{b66}The structure of suspended graphene sheets\\
+J. C. Meyer, A. K. Geim, M. I. Katsnelson, K. S. Novoselov, T. J. Booth and S. Roth,
+Nature {\bf 446}, (2007).
+
+\bibitem{b67}Breakdown of continuum mechanics for nanometre-wavelength rippling of graphene\\
+L. Tapaszt{\' o}, T. Dumitric{\u a}, S. J. Kim, P. Nemes-Incze, C. Hwang and L. P. Bir{\' o},
+Nature {\bf 446}, (2007).
+
+\bibitem{b5} The rise of graphene\\
+A. K. Geim and K. S. Novoselov,
+Nature Physics, Vol 6, (2007).
+
+\bibitem{b46} Introduction to Graphene Electronics - A New Era of Digital Transistors and Devices\\
+K. C. Yung, W. M. Wu, M. P. Pierpoint, F. V. Kusmartsev,
+Cont. Phys. {\bf 54}, 233-251 (2013).
+
+\bibitem{b62}Energetics of interplanar binding in graphite\\
+M. C. Schabel and J. L. Martins,
+Phys. Rev. B, {\bf 46}, No. 11, (1992).
+
+\bibitem{b58}Measurement of the Elastic Properties and Intrinsic Strength of Monolayer Graphene\\
+C. Lee, X. Wei, J. W. Kysar and J. Hone,
+Science, {\bf 321}, 385, (2008).
+
+\bibitem{b63}Young’s modulus of single-walled nanotubes\\
+A. Krishnan, E. Dujardin, T. W. Ebbesen, P. N. Yianilos and M. M. J. Treacy,
+Phys. Rev. B, {\bf 58}, No. 20, (1998).
+
+\bibitem{b60}Thermal properties of graphene: Fundamentals and applications\\
+E. Pop, V. Varshney and A. K. Roy,
+MRS Bulletin, {\bf 37}, (2012).
+
+\bibitem{b45}Ultrahigh electron mobility in suspended graphene\\
+K. I. Bolotin, K. J. Sikes, Z. Jiang, M. Klima, G. Fudenberg, J. Hone, P. Kim and H.L. Stormer,
+Solid State Commun., {\bf 146}, 351, (2008).
+
+\bibitem{b61}Intrinsic and Extrinsic Performance Limits of Graphene Devices on SiO$_{2}$\\
+J.H. Chen, C. Jang, S. Xiao, M. Ishigami and M. S. Fuhrer,
+Nature Nanotech. {\bf 3}, 206 - 209, (2008).
+
+\bibitem{b8} The Band Theory of Graphite\\
+P. R. Wallace,
+Physical Review, {\bf 71}, Number 9, (1947).
+
+\bibitem{b1}	The electronic properties of graphene\\
+A. H. Castro-Neto, F. Guinea, N. M. R. Peres, K. S. Novoselov, and A. K. Geim,
+Rev. Mod. Phys. {\bf 81}, 109, (2009).
+
+\bibitem{b55}Uniaxial strain on gapped graphene\\
+M. Farjam and H. Rafii-Tabar,
+Physica E, {\bf 42}, Issue 8, 2109-2114, (2010).
+
+\bibitem{b44} \"{U}ber die Quantenmechanik der Elektronen in Kristallgittern.\\
+F. Bloch,
+Z. Physik, {\bf 52}, p.555, (1928).
+
+\bibitem{b11} Klein tunneling in single and multiple barriers in graphene\\
+J.M. Pereira Jr, F. M. Peeters, A. Chaves and G. A. Farias,
+Semicond. Sci. Technol. {\bf 25}, 033002 (9pp), (2010).
+
+\bibitem{b2} Confined states and direction-dependent transmission in graphene quantum wells\\
+J. M. Pereira, V. Mlinar, F. M. Peeters and P. Vasilopoulos,
+Phys. Rev. B {\bf 74}, 045424, (2006).
+
+\bibitem{b4} Electron tunneling in single layer graphene with an energy gap\\
+X. Xu-Guang, Z. Chao, Xu. Gong-Jie and C. Jun-Cheng,
+Chin. Phys. B, {\bf 20}, No.2, 027201, (2011).
+
+\bibitem{b47} A Stable "Flat" Form of Two-Dimensional Crystals: Could Graphene, Silicene, Germanene Be Minigap Semiconductors\\
+A. O'Hare, F. V. Kusmartsev and K. I. Kugel,
+Nano Lett., {\bf 12}, 1045, (2012).
+
+\bibitem{b41} Semimetalic properties of a heterojunction\\
+F. V. Kusmartsev and A. M. Tsvelik,
+JETP lett., {\bf 42}, No. 5, 257-260, (1985).
+
+\bibitem{b59}Uniaxial Strain on Graphene: Raman Spectroscopy Study and Band-Gap Opening\\
+Z. H. Ni, T. Yu, Y. H. Lu, Y. Y. Wang, Y. P. Feng  and Z. X. Shen,
+ACS Nano, {\bf 2} (11), 2301-2305, (2008).
+
+\bibitem{b12} Chiral tunneling and the Klein paradox in graphene\\
+M. I. Katsnelson, K.S. Novoselov and A. K. Geim,
+Nature Physics, {\bf 2}, (2006).
+
+\bibitem{b3}	Voltage-driven quantum oscillations in graphene\\
+V. A. Yampol'skii, S. Savel'ev and F. Nori,
+New J. Phys. {\bf 10}, 053024, (2008).
+
+\bibitem{b39}Zur Theorie des Diamagnetismus von Leitungselektronen\\
+R. Peierls
+Zeitschrift für Physik, {\bf 80}, Issue 11-12, (1933).
+
+\bibitem{b33} Course of Theoretical Physics, Volume 3, Quantum Mechanics\\
+L. D. Landau and E. M. Lifshitz,
+Pergamon Press LTD., (1960).
+
+\bibitem{b37} Electronic properties of graphene in a strong magnetic field\\
+M. O. Goerbig,
+Rev. Mod. Phys. {\bf 83}, 1193, (2011).
+
+\bibitem{b53}Magnetisation oscillations, boundary conditions and the Hofstadter butterfly in graphene flakes\\
+Y. Liu, M. Brada, E. J. Mele and F. V. Kusmartsev,
+Ann. Phys. (Berlin), {\bf 526}, No. 9–10, 449–460, (2014).
+
+\bibitem{b6} Generalized many-channel conductance formula with application to small rings\\
+M. buttiker, Y. Imry, R. Landauer and S. Pinhas,
+Physical Review B, {\bf 31}, Number 10, (1985).
+
+\bibitem{b7} Relation beteen conductivity and transmission matrix\\
+D. S. Fisher and P. A. Lee,
+Physical Review B, {\bf 23}, Number 12, (1981).
+
+\bibitem{b9} Electronic Transport in Mesoscopic Systems\\ 
+S. Datta,
+Cambridge University Press, (1995).
+
+\bibitem{b10} Transition from metalic to tunneling regeimes in superconducting microstructures: Excess current, charge imbalance, and supercurrent conversion\\
+G. E. Blonder, M. Tinkham and T. M. Klapwijk,
+Phys. Rev. B, {\bf 25}, No. 7, (1982).
+
+\bibitem{b14} Fabry-P\'{e}rot resonances in graphene microstructures: Influence in magnetic field\\
+M. R. Masir, P. Vasilopoulos and F. M. Peeters,
+Phys. Rev. B, {\bf 82}, 115417, (2010).
+
+\bibitem{b15} Tunneling of Dirac electrons through spactial regions of finite mass\\
+J. V. Gomes and N. M. R. Peres,
+J. Phys.:Condens. Matter, {\bf 20}, 324221, (2008).
+
+\bibitem{b13} Electronic transmission through p-n and n-p-n junctions of graphene\\
+M.R. Setare and D. Jahani,
+J. Phys.: Condens. Matter, {\bf 22}, 245503, (2010).
+
+\bibitem{b16} Design of electron wave filters in monolayer graphene by tunable transmission gap\\
+X. Chen and J. Tao,
+Appl. Phys. Lett., {\bf 94}, 262102, (2009).
+
+\bibitem{b40}Chiral tunneling in single-layer and bilayer graphene\\
+T. Tudorovskiy, K. J. A. Reijnders and M. I. Katsnelson
+Phys. Scr., {\bf T146}, 014010, (17pp), (2012).
+
+\bibitem{b18} Wave Propagation: From Electrons to Photonic Crystals and Left-Handed Materials\\
+P. Markos and C. M. Soukoulis,
+Princeton University Press, (2008).
+
+\bibitem{b48} Common-path interference and oscillatory Zener tunneling in bilayer graphene p-n junctions\\
+R. Nandkishore and L. Levitov,
+PNAS, {\bf 108}, No. 34, 14021-14025, (2011).
+
+\bibitem{b57}Transport in carbon nanotube p-i-n diodes\\
+K. Bosnick, N. Gabor and P. McEuen,
+Appl. Phys. Lett., {\bf 89}, 163121, (2006).
+
+\bibitem{b17} Klein tunneling of massive Dirac fermions in single-layer graphene\\
+M.R. Setare and D. Jahani,
+\newblock Physica B, {\bf 405}, 1433-1436, (2010)
+
+\bibitem{b49} Die Reflexion von Elektronen an einem Potentialsprung nach der relativistischen Dynamik von Dirac\\
+O.Klein,
+Z. Physik, {\bf 53}, 157, (1929).
+
+\bibitem{b38} Klein Backscattering and Fabry-Pérot Interference in Graphene Heterojunctions\\
+A.i V. Shytov, M. S. Rudner and L. S. Levitov,
+Phys. Rev. Lett., {\bf 101}, 156804, (2008).
+
+\bibitem{b32} Course of Theoretical Physics, Volume 9, Statistical Physics Part 2\\
+L. D. Landau and E. M. Lifshitz,
+Pergamon Press LTD., (1960).
+
+\bibitem{b52}Physical properties of Zener tunnelling nano-devices in graphene\\
+R. D. Y. Hills and F. V. Kusmartsev,
+Ann. Phys. (Berlin), {\bf 526}, No. 9–10, 437–448, (2014).
+
+\bibitem{b42} A Theory of the Electrical Breakdown of Solid Dielectrics\\
+C. Zener,
+Proc. R. Soc. Lond. A., {\bf 145}, 523-529, (1934).
+
+\bibitem{b43} ZENER TUNNELING IN SEMICONDUCTORS\\
+E. O. Kane,
+J. Phys. Chem. Solids., {\bf 12}, pp 181-188, (1959).
+
+\bibitem{b54}Current-voltage characteristics of graphene devices: Interplay between Zener-Klein tunneling and defects\\
+N. Vandecasteele, A. Barreiro, M. Lazzeri, A. Bachtold and F. Mauri,
+Phys. Rev. B, {\bf 82}, 045416, (2010).
+
+\bibitem{b19} Exeptional ballistic transport in epitaxial graphene nanoribbons\\
+J. Baringhaus, M. Ruan, F.Edler, A.Tejeda, M. Sicot, A. Ibrahimi, A. Li, Z. Jiang, E. Conrad, C. Berger, C. Tegenkamp and W. A. de Heer
+Nature, {\bf 506}, 349, (2014).
+
+\bibitem{b20} Quantum Dot Behaviour in Graphene Nanoconstrictions\\
+K. Todd, H. Chou, S. Amasha and D. Goldhaber-Gordon,
+Nano Letters, {\bf 9}, No. 1 416-421, (2009).
+
+\bibitem{b21} Electron Transport in Disordered Graphene Nanoribbons\\
+M. Y. Han, J. C. Brant and P. Kim,
+Phys. Rev. Lett., {\bf 104}, 056801, (2010).
+
+\bibitem{b22} Electrical observation of subband formation in graphene nanoribbons\\
+Y. Lin, V. Perebeinos, Z. Chen and P. Avouris,
+Phys. Rev. B, {\bf 78}, 161409(R), (2008).
+
+\bibitem{b56}Electronic transport in graphene-based heterostructures\\
+J. Y. Tan, A. Avsar, J. Balakrishnan, G. K. W. Koon, T. Taychatanapat, E. C. T. O'Farrell, K. Watanabe, T. Taniguchi, G. Eda, A. H. Castro Neto and B. Özyilmaz,
+Appl. Phys. Lett., {\bf 104}, 183504, (2014).
+
+\bibitem{b71}The Birth of Topological Insulators\\
+J. E. Moore, 
+Nature, {\bf164}, pp. 194-198, (2010).
+
+\bibitem{b23} Large magnetiresistance in non-magnetic silver chalcogenides\\
+R. Xu, A. Husmann, T. F. Rosenbaum, M.-L Saboungi, J. E. Enderby and P. B. Littlewood,
+Nature, {\bf 390}, (1997).
+
+\bibitem{b24} Energy Gap in $\beta$-Ag$_{2}$Se\\
+R. Dalven and R. Gill,
+Physical Review, {\bf 159}, No. 3, (1967).
+
+\bibitem{b25} Quantum linear magnetoresistance; solution of an old mystery\\
+A. A. Abrikosov,
+J. Phys. A: Math. Gen., {\bf 36}, 9119-9131, (2003).
+
+\bibitem{b26} BAND STRUCTURE OF GRAY TIN\\
+S. Groves and W. Paul,
+Phys. Rev. Lett., {\bf 11}, No. 5, (1963).
+
+\bibitem{b27} Mercury telluride - a zero-gap semiconductor\\
+N. N. Berchenko and M. V. Pashkovskii,
+Sov. Phys. Usp., {\bf 19}, No. 6, (1976).
+
+\bibitem{b28} Observation of three-dimensional massless Kane fermions in a zinc-blende crystal\\
+M. Orlita, D. M. Basko, M. S. Zholudev, F. Teppe, W. Knap, V. I. Gavrilenko, N. N. Mikhailov, S. A. Dvoretskii, P. Neugebauer, C. Faugeras, A-L. Barra, G. Martinez and M. Potemski,
+Nature Physics, {\bf 10}, (2014).
+
+\bibitem{b29} Discovery of a Three-Dimensional Topological Dirac Semimetal Na$_{3}$Bi
+Z. K. Liu, B. Zhou, Y. Zhang, Z. J. Wang, H. M. Weng, D. Prabhakaran, S. K. Mo, Z. X. Shen, Z. Fang, X. Dai, Z. Hussain and Y. L. Chen,
+Science, {\bf 343}, 864, (2014).
+
+\bibitem{b34} A stable three-dimensional topological Dirac semimetal Cd$_{3}$As$_{2}$\\
+Z. K. Liu1, J. Jiang, B. Zhou, Z. J.Wang, Y. Zhang, H. M.Weng, D. Prabhakaran, S. K. Mo, H. Peng, P. Dudin, T. Kim, M. Hoesch, Z. Fang, X. Dai, Z. X. Shen, D. L. Feng, Z. Hussain and Y. L. Chen
+Nature Materials, {\bf 3}, (2014)
+
+\bibitem{b35}Observation of a three-dimensional topological Dirac semimetal phase in high-mobility Cd$_{3}$As$_{2}$\\
+M. Neupane, S. Xu, R. Sankar, N. Alidoust, G. Bian, C. Liu, I. Belopolski, T. Chang, H. Jeng, H. Lin, A. Bansil, F. Chou and M. Z. Hasan,
+Nat. Commun., 5:3786, doi: 10.1038/ncomms4786, (2014).
+
+\bibitem{b36}Three-dimensional Dirac semimetal and quantum transport in Cd$_{3}$As$_{2}$\\
+Z. Wang, H. Weng, Q. Wu, X. Dai, and Z. Fang,
+Phys. Rev. B, {\bf 88}, 125427, (2013).
+
+\bibitem{b50} Topological semimetal and Fermi-arc surface states in the electronic structure of pyrochlore iridates\\
+X. Wan, A. M. Turner, A. Vishwanath and S. Y. Savrasov,
+Phys. Rev. B, {\bf 83}, 205101, (2011).
+
+\bibitem{b51} Dirac Semimetal in Three Dimensions\\
+S. M. Young, S. Zaheer, J. C. Y. Teo, C. L. Kane, E. J. Mele and A. M. Rappe,
+Phys. Rev. Lett., {\bf 108}, 140405, (2012).
+
+\bibitem{b30} Spectrum of localised states in graphene quantum dots and wires\\
+V. V. Zalipaev, D. N. Maksimov, C. M. Linton and F. V. Kusmartsev,
+Phys. Lett. A, {\bf 337}, 216-221, (2013).
+
+\bibitem{b72}New Progress on Graphene Research: Chapter 2\\
+V. V. Zalipaev, D. M. Forrester, C. M. Linton and F. V. Kusmartsev,
+InTech, (2013).
+
+\bibitem{b31} Semi-Classical Approximation in Quantum Mechanics\\
+V. P. Maslov and M.V. Fedoriuk,
+Springer, (2001).
+
+%\bibitem{b45} ON THE PART OF THE MOTION OF THE LUNAR PERIGEE WHICH IS A FUNCTION OF THE MEAN MOMTIONS OF THE SUN AND MOON\\
+%G. W. Hill,
+%Acta Math., {\bf 8}, p.27, (1886).
+
+%%%%% 72 references at this point %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{thebibliography}
+\end{document}

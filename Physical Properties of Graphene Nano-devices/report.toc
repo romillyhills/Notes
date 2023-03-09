@@ -1,0 +1,72 @@
+\contentsline {chapter}{\numberline {1}Introduction}{9}
+\contentsline {section}{\numberline {1.1}Structure}{10}
+\contentsline {subsection}{\numberline {1.1.1}Zig-Zag Orientation}{10}
+\contentsline {subsection}{\numberline {1.1.2}Armchair Orientation}{11}
+\contentsline {section}{\numberline {1.2}Tight Binding Approximation}{12}
+\contentsline {subsection}{\numberline {1.2.1}Nearest Neighbor Only}{12}
+\contentsline {subsection}{\numberline {1.2.2}Second Nearest Neighbor}{16}
+\contentsline {section}{\numberline {1.3}Hamiltonian}{17}
+\contentsline {section}{\numberline {1.4}Dispersion relation at Dirac points}{19}
+\contentsline {section}{\numberline {1.5}Wave-functions}{19}
+\contentsline {subsection}{\numberline {1.5.1}Oscillatory}{20}
+\contentsline {subsection}{\numberline {1.5.2}Growth and Decay}{22}
+\contentsline {section}{\numberline {1.6}Magnetic Field}{24}
+\contentsline {subsection}{\numberline {1.6.1}Peierls Substitution}{24}
+\contentsline {subsection}{\numberline {1.6.2}Landau Levels}{26}
+\contentsline {subsection}{\numberline {1.6.3}Wave-functions}{27}
+\contentsline {section}{\numberline {1.7}Density of States}{29}
+\contentsline {section}{\numberline {1.8}Landauer Formalism}{30}
+\contentsline {section}{\numberline {1.9}Landauer Formalism in Graphene}{33}
+\contentsline {chapter}{\numberline {2}The Potential Step}{36}
+\contentsline {section}{\numberline {2.1}Conservation of Probability Current}{36}
+\contentsline {section}{\numberline {2.2}Simultaneous Equations}{38}
+\contentsline {section}{\numberline {2.3}Transfer and Scattering Matrices}{39}
+\contentsline {section}{\numberline {2.4}IV Characteristics at Finite Temperatures}{40}
+\contentsline {section}{\numberline {2.5}Conductance}{42}
+\contentsline {chapter}{\numberline {3}Rectangular Barrier}{45}
+\contentsline {section}{\numberline {3.1}Transfer Matrix}{46}
+\contentsline {section}{\numberline {3.2}Fabry-P\'{e}rot Resonances}{49}
+\contentsline {section}{\numberline {3.3}Bound States}{50}
+\contentsline {section}{\numberline {3.4}Conductance}{51}
+\contentsline {section}{\numberline {3.5}Conductance Without Graphene Density of States}{54}
+\contentsline {section}{\numberline {3.6}n-Barriers}{55}
+\contentsline {section}{\numberline {3.7}Graphene Superlattice}{56}
+\contentsline {chapter}{\numberline {4}The Zener Tunnelling Barrier}{60}
+\contentsline {section}{\numberline {4.1}Transfer Matrix}{60}
+\contentsline {section}{\numberline {4.2}Resonances and Bound States}{63}
+\contentsline {section}{\numberline {4.3}IV Characteristics at Finite Temperatures}{65}
+\contentsline {section}{\numberline {4.4}Conductance}{68}
+\contentsline {chapter}{\numberline {5}Comparison With Experimental Results}{69}
+\contentsline {chapter}{\numberline {6}Three Dimensional Topological Dirac Semimetals}{75}
+\contentsline {section}{\numberline {6.1}Energy Spectrum}{76}
+\contentsline {section}{\numberline {6.2}Wave-functions}{76}
+\contentsline {section}{\numberline {6.3}The Potential Step}{78}
+\contentsline {section}{\numberline {6.4}The Potential Barrier}{80}
+\contentsline {section}{\numberline {6.5}Resonances and Bound States}{82}
+\contentsline {section}{\numberline {6.6}Three Dimensional Superlattice}{85}
+\contentsline {section}{\numberline {6.7}Density of States}{86}
+\contentsline {section}{\numberline {6.8}IV Characteristics}{87}
+\contentsline {section}{\numberline {6.9}Non-symmetrical Dirac Cones}{87}
+\contentsline {section}{\numberline {6.10}Conclusion}{89}
+\contentsline {chapter}{\numberline {7}WKB Potential Barrier}{91}
+\contentsline {section}{\numberline {7.1}WKB Solutions in a Classically Allowed Domain}{92}
+\contentsline {section}{\numberline {7.2}WKB Solutions in a Classically Disallowed Domain}{94}
+\contentsline {section}{\numberline {7.3}Left Slope Tunnelling}{96}
+\contentsline {section}{\numberline {7.4}Total Transfer Matrix}{99}
+\contentsline {section}{\numberline {7.5}Bound states}{100}
+\contentsline {section}{\numberline {7.6}Results}{101}
+\contentsline {chapter}{\numberline {8}Conclusion}{105}
+\contentsline {chapter}{\numberline {9}Appendix}{107}
+\contentsline {section}{\numberline {9.1}Quantum Harmonic Oscillator}{107}
+\contentsline {section}{\numberline {9.2}Evaluating $p_{z}$}{108}
+\contentsline {section}{\numberline {9.3}Schr{\" o}dinger WKB Barrier}{108}
+\contentsline {subsection}{\numberline {9.3.1}Defining the Schr{\" o}dinger System}{109}
+\contentsline {subsection}{\numberline {9.3.2}Wave-functions Far From the Turning Points}{110}
+\contentsline {subsection}{\numberline {9.3.3}Wave-functions Close to the Turning Points}{110}
+\contentsline {subsection}{\numberline {9.3.4}Matching and Transfer Matrix}{112}
+\contentsline {subsection}{\numberline {9.3.5}The Double Potential Barrier}{113}
+\contentsline {section}{\numberline {9.4}Mathematical Appendix for the WKB Potential Barrier}{114}
+\contentsline {subsection}{\numberline {9.4.1}Solutions to Equation (7.55\hbox {})}{114}
+\contentsline {subsection}{\numberline {9.4.2}Matching Change of Variables to Solutions of Equation (7.55\hbox {})}{116}
+\contentsline {subsection}{\numberline {9.4.3}Matching Solutions of Equation (7.55\hbox {}) to Schr{\" o}dinger Solutions}{118}
+\contentsline {chapter}{\numberline {10}Bibliography}{121}

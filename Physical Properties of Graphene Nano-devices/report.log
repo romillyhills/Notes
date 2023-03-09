@@ -1,0 +1,2037 @@
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.12.11)  9 MAR 2023 17:42
+entering extended mode
+**C:/Users/Romilly/Desktop/report/report.tex
+(C:/Users/Romilly/Desktop/report/report.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2009-06-19, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, lao, latin, lat
+vian, lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerm
+an, ngerman-x-2009-06-19, nynorsk, oriya, panjabi, pinyin, polish, portuguese, 
+romanian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swis
+sgerman, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, u
+senglishmax, welsh, loaded.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\report.cls"
+Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size12.clo"
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+Package: inputenc 2008/03/30 v1.1d Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
+File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
+Now handling font encoding OML ...
+... no UTF-8 mapping file for font encoding OML
+Now handling font encoding T1 ...
+... processing UTF-8 mapping file for font encoding T1
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
+File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C0 (decimal 192)
+   defining Unicode char U+00C1 (decimal 193)
+   defining Unicode char U+00C2 (decimal 194)
+   defining Unicode char U+00C3 (decimal 195)
+   defining Unicode char U+00C4 (decimal 196)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00C7 (decimal 199)
+   defining Unicode char U+00C8 (decimal 200)
+   defining Unicode char U+00C9 (decimal 201)
+   defining Unicode char U+00CA (decimal 202)
+   defining Unicode char U+00CB (decimal 203)
+   defining Unicode char U+00CC (decimal 204)
+   defining Unicode char U+00CD (decimal 205)
+   defining Unicode char U+00CE (decimal 206)
+   defining Unicode char U+00CF (decimal 207)
+   defining Unicode char U+00D0 (decimal 208)
+   defining Unicode char U+00D1 (decimal 209)
+   defining Unicode char U+00D2 (decimal 210)
+   defining Unicode char U+00D3 (decimal 211)
+   defining Unicode char U+00D4 (decimal 212)
+   defining Unicode char U+00D5 (decimal 213)
+   defining Unicode char U+00D6 (decimal 214)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00D9 (decimal 217)
+   defining Unicode char U+00DA (decimal 218)
+   defining Unicode char U+00DB (decimal 219)
+   defining Unicode char U+00DC (decimal 220)
+   defining Unicode char U+00DD (decimal 221)
+   defining Unicode char U+00DE (decimal 222)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E0 (decimal 224)
+   defining Unicode char U+00E1 (decimal 225)
+   defining Unicode char U+00E2 (decimal 226)
+   defining Unicode char U+00E3 (decimal 227)
+   defining Unicode char U+00E4 (decimal 228)
+   defining Unicode char U+00E5 (decimal 229)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00E7 (decimal 231)
+   defining Unicode char U+00E8 (decimal 232)
+   defining Unicode char U+00E9 (decimal 233)
+   defining Unicode char U+00EA (decimal 234)
+   defining Unicode char U+00EB (decimal 235)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F0 (decimal 240)
+   defining Unicode char U+00F1 (decimal 241)
+   defining Unicode char U+00F2 (decimal 242)
+   defining Unicode char U+00F3 (decimal 243)
+   defining Unicode char U+00F4 (decimal 244)
+   defining Unicode char U+00F5 (decimal 245)
+   defining Unicode char U+00F6 (decimal 246)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+00F9 (decimal 249)
+   defining Unicode char U+00FA (decimal 250)
+   defining Unicode char U+00FB (decimal 251)
+   defining Unicode char U+00FC (decimal 252)
+   defining Unicode char U+00FD (decimal 253)
+   defining Unicode char U+00FE (decimal 254)
+   defining Unicode char U+00FF (decimal 255)
+   defining Unicode char U+0102 (decimal 258)
+   defining Unicode char U+0103 (decimal 259)
+   defining Unicode char U+0104 (decimal 260)
+   defining Unicode char U+0105 (decimal 261)
+   defining Unicode char U+0106 (decimal 262)
+   defining Unicode char U+0107 (decimal 263)
+   defining Unicode char U+010C (decimal 268)
+   defining Unicode char U+010D (decimal 269)
+   defining Unicode char U+010E (decimal 270)
+   defining Unicode char U+010F (decimal 271)
+   defining Unicode char U+0110 (decimal 272)
+   defining Unicode char U+0111 (decimal 273)
+   defining Unicode char U+0118 (decimal 280)
+   defining Unicode char U+0119 (decimal 281)
+   defining Unicode char U+011A (decimal 282)
+   defining Unicode char U+011B (decimal 283)
+   defining Unicode char U+011E (decimal 286)
+   defining Unicode char U+011F (decimal 287)
+   defining Unicode char U+0130 (decimal 304)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0132 (decimal 306)
+   defining Unicode char U+0133 (decimal 307)
+   defining Unicode char U+0139 (decimal 313)
+   defining Unicode char U+013A (decimal 314)
+   defining Unicode char U+013D (decimal 317)
+   defining Unicode char U+013E (decimal 318)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0143 (decimal 323)
+   defining Unicode char U+0144 (decimal 324)
+   defining Unicode char U+0147 (decimal 327)
+   defining Unicode char U+0148 (decimal 328)
+   defining Unicode char U+014A (decimal 330)
+   defining Unicode char U+014B (decimal 331)
+   defining Unicode char U+0150 (decimal 336)
+   defining Unicode char U+0151 (decimal 337)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0154 (decimal 340)
+   defining Unicode char U+0155 (decimal 341)
+   defining Unicode char U+0158 (decimal 344)
+   defining Unicode char U+0159 (decimal 345)
+   defining Unicode char U+015A (decimal 346)
+   defining Unicode char U+015B (decimal 347)
+   defining Unicode char U+015E (decimal 350)
+   defining Unicode char U+015F (decimal 351)
+   defining Unicode char U+0160 (decimal 352)
+   defining Unicode char U+0161 (decimal 353)
+   defining Unicode char U+0162 (decimal 354)
+   defining Unicode char U+0163 (decimal 355)
+   defining Unicode char U+0164 (decimal 356)
+   defining Unicode char U+0165 (decimal 357)
+   defining Unicode char U+016E (decimal 366)
+   defining Unicode char U+016F (decimal 367)
+   defining Unicode char U+0170 (decimal 368)
+   defining Unicode char U+0171 (decimal 369)
+   defining Unicode char U+0178 (decimal 376)
+   defining Unicode char U+0179 (decimal 377)
+   defining Unicode char U+017A (decimal 378)
+   defining Unicode char U+017B (decimal 379)
+   defining Unicode char U+017C (decimal 380)
+   defining Unicode char U+017D (decimal 381)
+   defining Unicode char U+017E (decimal 382)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201A (decimal 8218)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+2423 (decimal 9251)
+)
+Now handling font encoding OT1 ...
+... processing UTF-8 mapping file for font encoding OT1
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
+File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00B8 (decimal 184)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+)
+Now handling font encoding OMS ...
+... processing UTF-8 mapping file for font encoding OMS
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omsenc.dfu"
+File: omsenc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+)
+Now handling font encoding OMX ...
+... no UTF-8 mapping file for font encoding OMX
+Now handling font encoding U ...
+... no UTF-8 mapping file for font encoding U
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+02C6 (decimal 710)
+   defining Unicode char U+02DC (decimal 732)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2026 (decimal 8230)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2423 (decimal 9251)
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ams\math\amsmath.sty"
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ams\math\amstext.sty"
+Package: amstext 2000/06/29 v2.01
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ams\math\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks16
+\ex@=\dimen103
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ams\math\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen104
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ams\math\amsopn.sty"
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count88
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count89
+\leftroot@=\count90
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count91
+\DOTSCASE@=\count92
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen105
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count93
+\c@MaxMatrixCols=\count94
+\dotsspace@=\muskip10
+\c@parentequation=\count95
+\dspbrk@lvl=\count96
+\tag@help=\toks17
+\row@=\count97
+\column@=\count98
+\maxfields@=\count99
+\andhelp@=\toks18
+\eqnshift@=\dimen106
+\alignsep@=\dimen107
+\tagshift@=\dimen108
+\tagwidth@=\dimen109
+\totwidth@=\dimen110
+\lineht@=\dimen111
+\@envbody=\toks19
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+Package: amssymb 2009/06/22 v3.00
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks21
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count100
+\Gm@cntv=\count101
+\c@Gm@tempcnt=\count102
+\Gm@bindingoffset=\dimen112
+\Gm@wd@mp=\dimen113
+\Gm@odd@mp=\dimen114
+\Gm@even@mp=\dimen115
+\Gm@layoutwidth=\dimen116
+\Gm@layoutheight=\dimen117
+\Gm@layouthoffset=\dimen118
+\Gm@layoutvoffset=\dimen119
+\Gm@dimlist=\toks22
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count103
+))
+\Gin@req@height=\dimen120
+\Gin@req@width=\dimen121
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\caption.sty"
+Package: caption 2012/02/19 v3.2f Customizing captions (AR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\caption3.sty"
+Package: caption3 2012/01/12 v1.4b caption3 kernel (AR)
+\captionmargin=\dimen122
+\captionmargin@=\dimen123
+\captionwidth=\dimen124
+\caption@indent=\dimen125
+\caption@parindent=\dimen126
+\caption@hangindent=\dimen127
+)
+\c@ContinuedFloat=\count104
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\subcaption.sty"
+Package: subcaption 2012/01/12 v1.1d Sub-captions (AR)
+\c@subfigure=\count105
+\c@subtable=\count106
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tocbibind\tocbibind.sty"
+Package: tocbibind 2010/10/13 v1.5k extra ToC listings
+Package tocbibind Info: The document has chapter divisions on input line 50.
+
+
+Package tocbibind Note: Using chapter style headings, unless overridden.
+
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
+\fancy@headwidth=\skip46
+\f@ncyO@elh=\skip47
+\f@ncyO@erh=\skip48
+\f@ncyO@olh=\skip49
+\f@ncyO@orh=\skip50
+\f@ncyO@elf=\skip51
+\f@ncyO@erf=\skip52
+\f@ncyO@olf=\skip53
+\f@ncyO@orf=\skip54
+)
+(C:\Users\Romilly\Desktop\report\report.aux
+(C:\Users\Romilly\Desktop\report\abstract/abstract.aux)
+(C:\Users\Romilly\Desktop\report\aims/aims.aux)
+(C:\Users\Romilly\Desktop\report\novelty/novelty.aux)
+(C:\Users\Romilly\Desktop\report\publications/publications.aux)
+(C:\Users\Romilly\Desktop\report\acknowledgements/acknowledgements.aux)
+(C:\Users\Romilly\Desktop\report\introduction/introduction.aux
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `sub@' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `sub@' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `sub@' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `sub@' multiply defined.
+
+
+LaTeX Warning: Label `current-dos' multiply defined.
+
+) (C:\Users\Romilly\Desktop\report\potential-step/potential-step.aux)
+(C:\Users\Romilly\Desktop\report\potential-barrier/potential-barrier.aux
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `sub@' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `sub@' multiply defined.
+
+)
+(C:\Users\Romilly\Desktop\report\asymmetrical-barrier/asymmetrical-barrier.aux)
+(C:\Users\Romilly\Desktop\report\experimental/experimental.aux)
+(C:\Users\Romilly\Desktop\report\weyl-fermions/weyl-fermions.aux
+
+LaTeX Warning: Label `' multiply defined.
+
+)
+(C:\Users\Romilly\Desktop\report\wkb-potential-barrier/wkb-potential-barrier.au
+x) (C:\Users\Romilly\Desktop\report\conclusion/conclusion.aux)
+(C:\Users\Romilly\Desktop\report\appendix/appendix.aux))
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(71.13188pt, 455.24411pt, 71.13188pt)
+* v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=455.24411pt
+* \textheight=702.78308pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-1.1381pt
+* \topmargin=-38.1381pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=35.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count107
+\scratchdimen=\dimen128
+\scratchbox=\box28
+\nofMPsegments=\count108
+\nofMParguments=\count109
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count110
+\MPscratchDim=\dimen129
+\MPnumerator=\count111
+\makeMPintoPDFobject=\count112
+\everyMPtoPDFconversion=\toks24
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+ (C:\Users\Romilly\Desktop\report\title/title.tex
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 25.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <14.4> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 25.
+ [1
+
+{C:/Users/Romilly/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}])
+(C:\Users\Romilly\Desktop\report\abstract/abstract.tex
+LaTeX Font Info:    Try loading font information for U+msa on input line 18.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 18.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+)) [1
+
+]
+(C:\Users\Romilly\Desktop\report\aims/aims.tex
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 19.
+) [2
+
+
+]
+(C:\Users\Romilly\Desktop\report\novelty/novelty.tex) [3
+
+
+]
+(C:\Users\Romilly\Desktop\report\publications/publications.tex) [4
+
+
+]
+(C:\Users\Romilly\Desktop\report\acknowledgements/acknowledgements.tex)
+[5
+
+
+] (C:\Users\Romilly\Desktop\report\report.toc [6
+
+
+]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[7])
+\tf@toc=\write3
+ [8] (C:\Users\Romilly\Desktop\report\introduction/introduction.tex
+Chapter 1.
+[9
+
+
+] <images/strucure-zig-flat.png, id=40, 405.515pt x 419.5675pt>
+File: images/strucure-zig-flat.png Graphic file (type png)
+
+<use images/strucure-zig-flat.png>
+Package pdftex.def Info: images/strucure-zig-flat.png used on input line 32.
+(pdftex.def)             Requested size: 202.75699pt x 209.78323pt.
+
+<images/strucure-bz-zig-flat.png, id=42, 501.875pt x 501.875pt>
+File: images/strucure-bz-zig-flat.png Graphic file (type png)
+
+<use images/strucure-bz-zig-flat.png>
+Package pdftex.def Info: images/strucure-bz-zig-flat.png used on input line 37.
+
+(pdftex.def)             Requested size: 210.78606pt x 210.78606pt.
+
+Overfull \hbox (6.36137pt too wide) in paragraph at lines 31--40
+[]$[]$   $[]$ 
+ []
+
+[10 <C:/Users/Romilly/Desktop/report/images/strucure-zig-flat.png> <C:/Users/Ro
+milly/Desktop/report/images/strucure-bz-zig-flat.png>]
+<images/strucure-arm-flat.png, id=50, 445.665pt x 433.62pt>
+File: images/strucure-arm-flat.png Graphic file (type png)
+
+<use images/strucure-arm-flat.png>
+Package pdftex.def Info: images/strucure-arm-flat.png used on input line 76.
+(pdftex.def)             Requested size: 222.83195pt x 216.80946pt.
+
+<images/strucure-bz-arm-flat.png, id=51, 501.875pt x 501.875pt>
+File: images/strucure-bz-arm-flat.png Graphic file (type png)
+
+<use images/strucure-bz-arm-flat.png>
+Package pdftex.def Info: images/strucure-bz-arm-flat.png used on input line 81.
+
+(pdftex.def)             Requested size: 215.80203pt x 215.80203pt.
+
+Overfull \hbox (6.36137pt too wide) in paragraph at lines 75--84
+[]$[]$   $[]$ 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<images/tight-binding-flat.png, id=52, 633.36626pt x 353.32pt>
+File: images/tight-binding-flat.png Graphic file (type png)
+
+<use images/tight-binding-flat.png>
+Package pdftex.def Info: images/tight-binding-flat.png used on input line 117.
+(pdftex.def)             Requested size: 316.68236pt x 176.65956pt.
+File: images/tight-binding-flat.png Graphic file (type png)
+ <use images/tight-binding-flat.png>
+Package pdftex.def Info: images/tight-binding-flat.png used on input line 117.
+(pdftex.def)             Requested size: 316.68236pt x 176.65956pt.
+
+[11]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[12 <C:/Users/Romilly/Desktop/report/images/strucure-arm-flat.png> <C:/Users/Ro
+milly/Desktop/report/images/strucure-bz-arm-flat.png>] [13 <C:/Users/Romilly/De
+sktop/report/images/tight-binding-flat.png>] [14]
+<images/tight-binding.png, id=71, 594.22pt x 229.85875pt>
+File: images/tight-binding.png Graphic file (type png)
+
+<use images/tight-binding.png>
+Package pdftex.def Info: images/tight-binding.png used on input line 230.
+(pdftex.def)             Requested size: 356.53474pt x 137.91629pt.
+ [15 <C:/Users/Romilly/Desktop/report/images/tight-binding.png (PNG copy)>] [16
+]
+<images/tb-second.png, id=78, 660.4675pt x 216.81pt>
+File: images/tb-second.png Graphic file (type png)
+
+<use images/tb-second.png>
+Package pdftex.def Info: images/tb-second.png used on input line 290.
+(pdftex.def)             Requested size: 396.28355pt x 130.08699pt.
+ [17 <C:/Users/Romilly/Desktop/report/images/tb-second.png (PNG copy)>] [18]
+Overfull \hbox (0.93866pt too wide) in paragraph at lines 386--387
+\OT1/cmr/m/n/12 By find-ing the eigen-value of the graphene Hamil-to-nian, the 
+dis-per-sion re-la-tion for graphene
+ []
+
+<images/dispersion.png, id=87, 579.16376pt x 231.86626pt>
+File: images/dispersion.png Graphic file (type png)
+
+<use images/dispersion.png>
+Package pdftex.def Info: images/dispersion.png used on input line 395.
+(pdftex.def)             Requested size: 289.58116pt x 115.93283pt.
+
+<images/dispersion-m.png, id=88, 579.16376pt x 231.86626pt>
+File: images/dispersion-m.png Graphic file (type png)
+
+<use images/dispersion-m.png>
+Package pdftex.def Info: images/dispersion-m.png used on input line 400.
+(pdftex.def)             Requested size: 289.58116pt x 115.93283pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[19] [20 <C:/Users/Romilly/Desktop/report/images/dispersion.png (PNG copy)> <C:
+/Users/Romilly/Desktop/report/images/dispersion-m.png (PNG copy)>] [21]
+<images/oscillitary-psi-a.png, id=99, 361.35pt x 244.915pt>
+File: images/oscillitary-psi-a.png Graphic file (type png)
+
+<use images/oscillitary-psi-a.png>
+Package pdftex.def Info: images/oscillitary-psi-a.png used on input line 637.
+(pdftex.def)             Requested size: 216.81168pt x 146.95012pt.
+
+<images/oscillitary-psi-b.png, id=100, 361.35pt x 244.915pt>
+File: images/oscillitary-psi-b.png Graphic file (type png)
+
+<use images/oscillitary-psi-b.png>
+Package pdftex.def Info: images/oscillitary-psi-b.png used on input line 643.
+(pdftex.def)             Requested size: 216.81168pt x 146.95012pt.
+ [22 <C:/Users/Romilly/Desktop/report/images/oscillitary-psi-a.png (PNG copy)> 
+<C:/Users/Romilly/Desktop/report/images/oscillitary-psi-b.png (PNG copy)>]
+<images/growth-psi-a.png, id=104, 361.35pt x 256.96pt>
+File: images/growth-psi-a.png Graphic file (type png)
+
+<use images/growth-psi-a.png>
+Package pdftex.def Info: images/growth-psi-a.png used on input line 715.
+(pdftex.def)             Requested size: 216.81168pt x 154.17719pt.
+
+<images/growth-psi-b.png, id=105, 361.35pt x 256.96pt>
+File: images/growth-psi-b.png Graphic file (type png)
+
+<use images/growth-psi-b.png>
+Package pdftex.def Info: images/growth-psi-b.png used on input line 721.
+(pdftex.def)             Requested size: 216.81168pt x 154.17719pt.
+ [23] [24 <C:/Users/Romilly/Desktop/report/images/growth-psi-a.png (PNG copy)> 
+<C:/Users/Romilly/Desktop/report/images/growth-psi-b.png (PNG copy)>] [25] [26]
+
+<images/landau-levels.png, id=119, 361.35pt x 200.75pt>
+File: images/landau-levels.png Graphic file (type png)
+
+<use images/landau-levels.png>
+Package pdftex.def Info: images/landau-levels.png used on input line 865.
+(pdftex.def)             Requested size: 216.81168pt x 120.45091pt.
+
+<images/landau-levels-v-m.png, id=120, 361.35pt x 200.75pt>
+File: images/landau-levels-v-m.png Graphic file (type png)
+
+<use images/landau-levels-v-m.png>
+Package pdftex.def Info: images/landau-levels-v-m.png used on input line 870.
+(pdftex.def)             Requested size: 216.81168pt x 120.45091pt.
+ [27 <C:/Users/Romilly/Desktop/report/images/landau-levels.png (PNG copy)> <C:/
+Users/Romilly/Desktop/report/images/landau-levels-v-m.png (PNG copy)>] [28]
+<images/magnetic-psi-a.png, id=129, 361.35pt x 242.9075pt>
+File: images/magnetic-psi-a.png Graphic file (type png)
+
+<use images/magnetic-psi-a.png>
+Package pdftex.def Info: images/magnetic-psi-a.png used on input line 969.
+(pdftex.def)             Requested size: 216.81168pt x 145.7456pt.
+
+<images/magnetic-psi-b.png, id=130, 361.35pt x 237.88875pt>
+File: images/magnetic-psi-b.png Graphic file (type png)
+
+<use images/magnetic-psi-b.png>
+Package pdftex.def Info: images/magnetic-psi-b.png used on input line 975.
+(pdftex.def)             Requested size: 216.81168pt x 142.73433pt.
+ [29 <C:/Users/Romilly/Desktop/report/images/magnetic-psi-a.png (PNG copy)> <C:
+/Users/Romilly/Desktop/report/images/magnetic-psi-b.png (PNG copy)>] <images/cu
+rrent.png, id=134, 874.26625pt x 204.765pt>
+File: images/current.png Graphic file (type png)
+
+<use images/current.png>
+Package pdftex.def Info: images/current.png used on input line 1030.
+(pdftex.def)             Requested size: 437.13205pt x 102.38223pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[30] [31 <C:/Users/Romilly/Desktop/report/images/current.png>]
+Overfull \hbox (10.72168pt too wide) in paragraph at lines 1091--1093
+\OT1/cmr/m/n/12 At zero tem-per-a-ture and with small volt-ages across the sour
+ce-drain $[]$ be-comes $\OML/cmm/m/it/12  []$\OT1/cmr/m/n/12 ,
+ []
+
+[32] [33] [34]) [35]
+(C:\Users\Romilly\Desktop\report\potential-step/potential-step.tex
+Chapter 2.
+<images/rectangular-step-flat.png, id=156, 501.875pt x 301.125pt>
+File: images/rectangular-step-flat.png Graphic file (type png)
+
+<use images/rectangular-step-flat.png>
+Package pdftex.def Info: images/rectangular-step-flat.png used on input line 19
+.
+(pdftex.def)             Requested size: 301.12732pt x 180.67638pt.
+ [36
+
+
+
+]
+Overfull \hbox (42.34534pt too wide) in paragraph at lines 72--72
+[] 
+ []
+
+[37 <C:/Users/Romilly/Desktop/report/images/rectangular-step-flat.png>]
+[38] [39] <images/step-1.png, id=171, 361.35pt x 302.12875pt>
+File: images/step-1.png Graphic file (type png)
+
+<use images/step-1.png>
+Package pdftex.def Info: images/step-1.png used on input line 241.
+(pdftex.def)             Requested size: 180.67456pt x 151.064pt.
+ <images/step-2.png, id=172, 361.35pt x 302.12875pt>
+File: images/step-2.png Graphic file (type png)
+
+<use images/step-2.png>
+Package pdftex.def Info: images/step-2.png used on input line 246.
+(pdftex.def)             Requested size: 180.67456pt x 151.064pt.
+
+Overfull \hbox (19.44853pt too wide) in paragraph at lines 240--249
+[]$[]$   $[]$ 
+ []
+
+<images/step-3.png, id=173, 361.35pt x 302.12875pt>
+File: images/step-3.png Graphic file (type png)
+ <use images/step-3.png>
+Package pdftex.def Info: images/step-3.png used on input line 254.
+(pdftex.def)             Requested size: 180.67456pt x 151.064pt.
+
+<images/step-4.png, id=174, 361.35pt x 302.12875pt>
+File: images/step-4.png Graphic file (type png)
+ <use images/step-4.png>
+Package pdftex.def Info: images/step-4.png used on input line 259.
+(pdftex.def)             Requested size: 180.67456pt x 151.064pt.
+
+Overfull \hbox (19.44853pt too wide) in paragraph at lines 253--262
+[]$[]$   $[]$ 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<images/step-vg-1.png, id=175, 361.35pt x 228.855pt>
+File: images/step-vg-1.png Graphic file (type png)
+
+<use images/step-vg-1.png>
+Package pdftex.def Info: images/step-vg-1.png used on input line 279.
+(pdftex.def)             Requested size: 126.4744pt x 80.10043pt.
+
+<images/step-vg-2.png, id=176, 361.35pt x 211.79124pt>
+File: images/step-vg-2.png Graphic file (type png)
+
+<use images/step-vg-2.png>
+Package pdftex.def Info: images/step-vg-2.png used on input line 284.
+(pdftex.def)             Requested size: 126.4744pt x 74.12804pt.
+
+<images/step-vg-3.png, id=177, 361.35pt x 228.855pt>
+File: images/step-vg-3.png Graphic file (type png)
+
+<use images/step-vg-3.png>
+Package pdftex.def Info: images/step-vg-3.png used on input line 289.
+(pdftex.def)             Requested size: 126.4744pt x 80.10043pt.
+
+<images/step-vgm-1.png, id=178, 361.35pt x 228.855pt>
+File: images/step-vgm-1.png Graphic file (type png)
+
+<use images/step-vgm-1.png>
+Package pdftex.def Info: images/step-vgm-1.png used on input line 297.
+(pdftex.def)             Requested size: 126.4744pt x 80.10043pt.
+
+<images/step-vgm-2.png, id=179, 361.35pt x 228.855pt>
+File: images/step-vgm-2.png Graphic file (type png)
+
+<use images/step-vgm-2.png>
+Package pdftex.def Info: images/step-vgm-2.png used on input line 302.
+(pdftex.def)             Requested size: 126.4744pt x 80.10043pt.
+
+<images/step-vgm-3.png, id=180, 361.35pt x 228.855pt>
+File: images/step-vgm-3.png Graphic file (type png)
+
+<use images/step-vgm-3.png>
+Package pdftex.def Info: images/step-vgm-3.png used on input line 307.
+(pdftex.def)             Requested size: 126.4744pt x 80.10043pt.
+ [40]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<images/step-v-1.png, id=184, 361.35pt x 198.7425pt>
+File: images/step-v-1.png Graphic file (type png)
+ <use images/step-v-1.png>
+Package pdftex.def Info: images/step-v-1.png used on input line 317.
+(pdftex.def)             Requested size: 126.4744pt x 69.56091pt.
+
+<images/step-v-2.png, id=185, 361.35pt x 198.7425pt>
+File: images/step-v-2.png Graphic file (type png)
+ <use images/step-v-2.png>
+Package pdftex.def Info: images/step-v-2.png used on input line 322.
+(pdftex.def)             Requested size: 126.4744pt x 69.56091pt.
+
+<images/step-v-3.png, id=186, 361.35pt x 198.7425pt>
+File: images/step-v-3.png Graphic file (type png)
+ <use images/step-v-3.png>
+Package pdftex.def Info: images/step-v-3.png used on input line 327.
+(pdftex.def)             Requested size: 126.4744pt x 69.56091pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<images/step-t-1.png, id=187, 361.35pt x 217.81375pt>
+File: images/step-t-1.png Graphic file (type png)
+
+<use images/step-t-1.png>
+Package pdftex.def Info: images/step-t-1.png used on input line 337.
+(pdftex.def)             Requested size: 126.4744pt x 76.23595pt.
+
+<images/step-t-3.png, id=188, 361.35pt x 217.81375pt>
+File: images/step-t-3.png Graphic file (type png)
+
+<use images/step-t-3.png>
+Package pdftex.def Info: images/step-t-3.png used on input line 342.
+(pdftex.def)             Requested size: 126.4744pt x 76.23595pt.
+
+<images/step-t-2.png, id=189, 361.35pt x 217.81375pt>
+File: images/step-t-2.png Graphic file (type png)
+
+<use images/step-t-2.png>
+Package pdftex.def Info: images/step-t-2.png used on input line 347.
+(pdftex.def)             Requested size: 126.4744pt x 76.23595pt.
+ [41 <C:/Users/Romilly/Desktop/report/images/step-1.png (PNG copy)> <C:/Users/R
+omilly/Desktop/report/images/step-2.png (PNG copy)>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<images/step-g-1.png, id=193, 361.35pt x 215.80624pt>
+File: images/step-g-1.png Graphic file (type png)
+
+<use images/step-g-1.png>
+Package pdftex.def Info: images/step-g-1.png used on input line 365.
+(pdftex.def)             Requested size: 126.4744pt x 75.53331pt.
+
+<images/step-g-2.png, id=194, 361.35pt x 215.80624pt>
+File: images/step-g-2.png Graphic file (type png)
+
+<use images/step-g-2.png>
+Package pdftex.def Info: images/step-g-2.png used on input line 370.
+(pdftex.def)             Requested size: 126.4744pt x 75.53331pt.
+
+<images/step-g-3.png, id=195, 361.35pt x 215.80624pt>
+File: images/step-g-3.png Graphic file (type png)
+
+<use images/step-g-3.png>
+Package pdftex.def Info: images/step-g-3.png used on input line 375.
+(pdftex.def)             Requested size: 126.4744pt x 75.53331pt.
+) [42 <C:/Users/Romilly/Desktop/report/images/step-3.png (PNG copy)> <C:/Users/
+Romilly/Desktop/report/images/step-4.png (PNG copy)> <C:/Users/Romilly/Desktop/
+report/images/step-vg-1.png (PNG copy)> <C:/Users/Romilly/Desktop/report/images
+/step-vg-2.png (PNG copy)> <C:/Users/Romilly/Desktop/report/images/step-vg-3.pn
+g (PNG copy)>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[43 <C:/Users/Romilly/Desktop/report/images/step-vgm-1.png (PNG copy)> <C:/User
+s/Romilly/Desktop/report/images/step-vgm-2.png (PNG copy)> <C:/Users/Romilly/De
+sktop/report/images/step-vgm-3.png (PNG copy)> <C:/Users/Romilly/Desktop/report
+/images/step-v-1.png (PNG copy)> <C:/Users/Romilly/Desktop/report/images/step-v
+-2.png (PNG copy)> <C:/Users/Romilly/Desktop/report/images/step-v-3.png (PNG co
+py)>] [44 <C:/Users/Romilly/Desktop/report/images/step-t-1.png (PNG copy)> <C:/
+Users/Romilly/Desktop/report/images/step-t-3.png (PNG copy)> <C:/Users/Romilly/
+Desktop/report/images/step-t-2.png (PNG copy)> <C:/Users/Romilly/Desktop/report
+/images/step-g-1.png (PNG copy)> <C:/Users/Romilly/Desktop/report/images/step-g
+-2.png (PNG copy)> <C:/Users/Romilly/Desktop/report/images/step-g-3.png (PNG co
+py)>] (C:\Users\Romilly\Desktop\report\potential-barrier/potential-barrier.tex
+Chapter 3.
+<images/rectangular-barrier-regions-flat.png, id=206, 501.875pt x 401.5pt>
+File: images/rectangular-barrier-regions-flat.png Graphic file (type png)
+
+<use images/rectangular-barrier-regions-flat.png>
+Package pdftex.def Info: images/rectangular-barrier-regions-flat.png used on in
+put line 18.
+(pdftex.def)             Requested size: 200.74643pt x 160.59715pt.
+
+<images/potential-constant-mass-barrier-flat.png, id=207, 501.875pt x 301.125pt
+>
+File: images/potential-constant-mass-barrier-flat.png Graphic file (type png)
+ <use images/potential-constant-mass-barrier-flat.png>
+Package pdftex.def Info: images/potential-constant-mass-barrier-flat.png used o
+n input line 23.
+(pdftex.def)             Requested size: 225.84166pt x 135.50499pt.
+ [45
+
+
+
+] [46 <C:/Users/Romilly/Desktop/report/images/rectangular-barrier-regions-flat.
+png> <C:/Users/Romilly/Desktop/report/images/potential-constant-mass-barrier-fl
+at.png>] [47]
+<images/potential.png, id=219, 361.35pt x 302.12875pt>
+File: images/potential.png Graphic file (type png)
+
+<use images/potential.png>
+Package pdftex.def Info: images/potential.png used on input line 167.
+(pdftex.def)             Requested size: 155.37747pt x 129.91283pt.
+ <images/mass.png, id=220, 361.35pt x 302.12875pt>
+File: images/mass.png Graphic file (type png)
+
+<use images/mass.png>
+Package pdftex.def Info: images/mass.png used on input line 172.
+(pdftex.def)             Requested size: 155.37747pt x 129.91283pt.
+
+<images/transmission.png, id=221, 361.35pt x 302.12875pt>
+File: images/transmission.png Graphic file (type png)
+
+<use images/transmission.png>
+Package pdftex.def Info: images/transmission.png used on input line 177.
+(pdftex.def)             Requested size: 155.37747pt x 129.91283pt.
+
+<images/contour-t-m.png, id=222, 361.35pt x 302.12875pt>
+File: images/contour-t-m.png Graphic file (type png)
+
+<use images/contour-t-m.png>
+Package pdftex.def Info: images/contour-t-m.png used on input line 187.
+(pdftex.def)             Requested size: 180.67456pt x 151.064pt.
+
+<images/mass-potential-e-d.png, id=223, 361.35pt x 302.12875pt>
+File: images/mass-potential-e-d.png Graphic file (type png)
+
+<use images/mass-potential-e-d.png>
+Package pdftex.def Info: images/mass-potential-e-d.png used on input line 192.
+(pdftex.def)             Requested size: 180.67456pt x 151.064pt.
+ [48 <C:/Users/Romilly/Desktop/report/images/potential.png (PNG copy)> <C:/User
+s/Romilly/Desktop/report/images/mass.png (PNG copy)> <C:/Users/Romilly/Desktop/
+report/images/transmission.png (PNG copy)>]
+<images/mass-potential-energy-levels.png, id=228, 361.35pt x 226.8475pt>
+File: images/mass-potential-energy-levels.png Graphic file (type png)
+
+<use images/mass-potential-energy-levels.png>
+Package pdftex.def Info: images/mass-potential-energy-levels.png used on input 
+line 214.
+(pdftex.def)             Requested size: 180.67456pt x 113.42346pt.
+ [49 <C:/Users/Romilly/Desktop/report/images/contour-t-m.png (PNG copy)> <C:/Us
+ers/Romilly/Desktop/report/images/mass-potential-e-d.png (PNG copy)>] [50 <C:/U
+sers/Romilly/Desktop/report/images/mass-potential-energy-levels.png (PNG copy)>
+]
+<images/bound-states.png, id=235, 501.875pt x 301.125pt>
+File: images/bound-states.png Graphic file (type png)
+
+<use images/bound-states.png>
+Package pdftex.def Info: images/bound-states.png used on input line 285.
+(pdftex.def)             Requested size: 200.74643pt x 120.44786pt.
+
+<images/bound-states-plot.png, id=236, 361.35pt x 244.915pt>
+File: images/bound-states-plot.png Graphic file (type png)
+
+<use images/bound-states-plot.png>
+Package pdftex.def Info: images/bound-states-plot.png used on input line 291.
+(pdftex.def)             Requested size: 252.94327pt x 171.43932pt.
+
+<images/pot-g-1.png, id=237, 361.35pt x 220.825pt>
+File: images/pot-g-1.png Graphic file (type png)
+ <use images/pot-g-1.png>
+Package pdftex.def Info: images/pot-g-1.png used on input line 306.
+(pdftex.def)             Requested size: 126.4744pt x 77.2899pt.
+
+<images/pot-g-2.png, id=238, 361.35pt x 220.825pt>
+File: images/pot-g-2.png Graphic file (type png)
+ <use images/pot-g-2.png>
+Package pdftex.def Info: images/pot-g-2.png used on input line 311.
+(pdftex.def)             Requested size: 126.4744pt x 77.2899pt.
+
+<images/pot-g-3.png, id=239, 361.35pt x 220.825pt>
+File: images/pot-g-3.png Graphic file (type png)
+ <use images/pot-g-3.png>
+Package pdftex.def Info: images/pot-g-3.png used on input line 316.
+(pdftex.def)             Requested size: 126.4744pt x 77.2899pt.
+
+[51 <C:/Users/Romilly/Desktop/report/images/bound-states.png> <C:/Users/Romilly
+/Desktop/report/images/bound-states-plot.png (PNG copy)>]
+<images/pot-vg-1.png, id=244, 361.35pt x 218.8175pt>
+File: images/pot-vg-1.png Graphic file (type png)
+ <use images/pot-vg-1.png>
+Package pdftex.def Info: images/pot-vg-1.png used on input line 326.
+(pdftex.def)             Requested size: 126.4744pt x 76.58727pt.
+
+<images/pot-vg-2.png, id=245, 361.35pt x 218.8175pt>
+File: images/pot-vg-2.png Graphic file (type png)
+ <use images/pot-vg-2.png>
+Package pdftex.def Info: images/pot-vg-2.png used on input line 331.
+(pdftex.def)             Requested size: 126.4744pt x 76.58727pt.
+
+<images/pot-vg-3.png, id=246, 361.35pt x 218.8175pt>
+File: images/pot-vg-3.png Graphic file (type png)
+ <use images/pot-vg-3.png>
+Package pdftex.def Info: images/pot-vg-3.png used on input line 336.
+(pdftex.def)             Requested size: 126.4744pt x 76.58727pt.
+
+<images/pot-t-1.png, id=247, 361.35pt x 225.84375pt>
+File: images/pot-t-1.png Graphic file (type png)
+ <use images/pot-t-1.png>
+Package pdftex.def Info: images/pot-t-1.png used on input line 346.
+(pdftex.def)             Requested size: 126.4744pt x 79.04648pt.
+
+<images/pot-t-2.png, id=248, 361.35pt x 225.84375pt>
+File: images/pot-t-2.png Graphic file (type png)
+ <use images/pot-t-2.png>
+Package pdftex.def Info: images/pot-t-2.png used on input line 351.
+(pdftex.def)             Requested size: 126.4744pt x 79.04648pt.
+
+<images/pot-t-3.png, id=249, 361.35pt x 225.84375pt>
+File: images/pot-t-3.png Graphic file (type png)
+ <use images/pot-t-3.png>
+Package pdftex.def Info: images/pot-t-3.png used on input line 356.
+(pdftex.def)             Requested size: 126.4744pt x 79.04648pt.
+
+[52 <C:/Users/Romilly/Desktop/report/images/pot-g-1.png (PNG copy)> <C:/Users/R
+omilly/Desktop/report/images/pot-g-2.png (PNG copy)> <C:/Users/Romilly/Desktop/
+report/images/pot-g-3.png (PNG copy)> <C:/Users/Romilly/Desktop/report/images/p
+ot-vg-1.png (PNG copy)> <C:/Users/Romilly/Desktop/report/images/pot-vg-2.png (P
+NG copy)> <C:/Users/Romilly/Desktop/report/images/pot-vg-3.png (PNG copy)>]
+<images/pot-vsd-1.png, id=253, 361.35pt x 222.8325pt>
+File: images/pot-vsd-1.png Graphic file (type png)
+
+<use images/pot-vsd-1.png>
+Package pdftex.def Info: images/pot-vsd-1.png used on input line 366.
+(pdftex.def)             Requested size: 126.4744pt x 77.99254pt.
+
+<images/pot-vsd-2.png, id=254, 361.35pt x 222.8325pt>
+File: images/pot-vsd-2.png Graphic file (type png)
+
+<use images/pot-vsd-2.png>
+Package pdftex.def Info: images/pot-vsd-2.png used on input line 371.
+(pdftex.def)             Requested size: 126.4744pt x 77.99254pt.
+
+<images/pot-vsd-3.png, id=255, 361.35pt x 222.8325pt>
+File: images/pot-vsd-3.png Graphic file (type png)
+
+<use images/pot-vsd-3.png>
+Package pdftex.def Info: images/pot-vsd-3.png used on input line 376.
+(pdftex.def)             Requested size: 126.4744pt x 77.99254pt.
+
+Overfull \hbox (7.97163pt too wide) in paragraph at lines 385--385
+[]\OT1/cmr/bx/n/17.28 Conductance With-out Graphene Den-sity of States 
+ []
+
+[53 <C:/Users/Romilly/Desktop/report/images/pot-t-1.png (PNG copy)> <C:/Users/R
+omilly/Desktop/report/images/pot-t-2.png (PNG copy)> <C:/Users/Romilly/Desktop/
+report/images/pot-t-3.png (PNG copy)> <C:/Users/Romilly/Desktop/report/images/p
+ot-vsd-1.png (PNG copy)> <C:/Users/Romilly/Desktop/report/images/pot-vsd-2.png 
+(PNG copy)> <C:/Users/Romilly/Desktop/report/images/pot-vsd-3.png (PNG copy)>]
+<images/rectangular-barrier-conductance-a.png, id=259, 361.35pt x 226.8475pt>
+File: images/rectangular-barrier-conductance-a.png Graphic file (type png)
+
+<use images/rectangular-barrier-conductance-a.png>
+Package pdftex.def Info: images/rectangular-barrier-conductance-a.png used on i
+nput line 395.
+(pdftex.def)             Requested size: 216.81168pt x 136.10954pt.
+
+<images/rectangular-barrier-conductance-b.png, id=260, 361.35pt x 226.8475pt>
+File: images/rectangular-barrier-conductance-b.png Graphic file (type png)
+
+<use images/rectangular-barrier-conductance-b.png>
+Package pdftex.def Info: images/rectangular-barrier-conductance-b.png used on i
+nput line 400.
+(pdftex.def)             Requested size: 216.81168pt x 136.10954pt.
+
+<images/rectangular-barrier-conductance-c.png, id=261, 361.35pt x 224.84pt>
+File: images/rectangular-barrier-conductance-c.png Graphic file (type png)
+
+<use images/rectangular-barrier-conductance-c.png>
+Package pdftex.def Info: images/rectangular-barrier-conductance-c.png used on i
+nput line 408.
+(pdftex.def)             Requested size: 216.81168pt x 134.90503pt.
+
+<images/rectangular-barrier-conductance-max.png, id=262, 361.35pt x 225.84375pt
+>
+File: images/rectangular-barrier-conductance-max.png Graphic file (type png)
+ <use images/rectangular-barrier-conductance-max.png>
+Package pdftex.def Info: images/rectangular-barrier-conductance-max.png used on
+ input line 413.
+(pdftex.def)             Requested size: 216.81168pt x 135.50728pt.
+
+<images/multiple-potential-barrier-flat.png, id=263, 602.25pt x 301.125pt>
+File: images/multiple-potential-barrier-flat.png Graphic file (type png)
+
+<use images/multiple-potential-barrier-flat.png>
+Package pdftex.def Info: images/multiple-potential-barrier-flat.png used on inp
+ut line 427.
+(pdftex.def)             Requested size: 301.12425pt x 150.56212pt.
+ [54 <C:/Users/Romilly/Desktop/report/images/rectangular-barrier-conductance-a.
+png (PNG copy)> <C:/Users/Romilly/Desktop/report/images/rectangular-barrier-con
+ductance-b.png (PNG copy)>]
+[55 <C:/Users/Romilly/Desktop/report/images/rectangular-barrier-conductance-c.p
+ng (PNG copy)> <C:/Users/Romilly/Desktop/report/images/rectangular-barrier-cond
+uctance-max.png (PNG copy)> <C:/Users/Romilly/Desktop/report/images/multiple-po
+tential-barrier-flat.png>]
+<images/double-potential.png, id=272, 361.35pt x 228.855pt>
+File: images/double-potential.png Graphic file (type png)
+
+<use images/double-potential.png>
+Package pdftex.def Info: images/double-potential.png used on input line 492.
+(pdftex.def)             Requested size: 216.81168pt x 137.31404pt.
+
+<images/double-mass.png, id=273, 361.35pt x 228.855pt>
+File: images/double-mass.png Graphic file (type png)
+
+<use images/double-mass.png>
+Package pdftex.def Info: images/double-mass.png used on input line 498.
+(pdftex.def)             Requested size: 216.81168pt x 137.31404pt.
+
+Overfull \hbox (22.29399pt too wide) in paragraph at lines 491--502
+[]$[]$   $[]$ 
+ []
+
+<images/double-potential-mass.png, id=274, 361.35pt x 228.855pt>
+File: images/double-potential-mass.png Graphic file (type png)
+
+<use images/double-potential-mass.png>
+Package pdftex.def Info: images/double-potential-mass.png used on input line 50
+9.
+(pdftex.def)             Requested size: 216.81168pt x 137.31404pt.
+
+<images/double-potential-g.png, id=275, 361.35pt x 224.84pt>
+File: images/double-potential-g.png Graphic file (type png)
+
+<use images/double-potential-g.png>
+Package pdftex.def Info: images/double-potential-g.png used on input line 515.
+(pdftex.def)             Requested size: 216.81168pt x 134.90503pt.
+
+Overfull \hbox (22.29399pt too wide) in paragraph at lines 508--519
+[]$[]$   $[]$ 
+ []
+
+<images/periodic.png, id=276, 501.875pt x 301.125pt>
+File: images/periodic.png Graphic file (type png)
+ <use images/periodic.png>
+Package pdftex.def Info: images/periodic.png used on input line 529.
+(pdftex.def)             Requested size: 250.93687pt x 150.56212pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[56] [57 <C:/Users/Romilly/Desktop/report/images/double-potential.png (PNG copy
+)> <C:/Users/Romilly/Desktop/report/images/double-mass.png (PNG copy)> <C:/User
+s/Romilly/Desktop/report/images/double-potential-mass.png (PNG copy)> <C:/Users
+/Romilly/Desktop/report/images/double-potential-g.png (PNG copy)>]
+Overfull \hbox (32.68791pt too wide) in paragraph at lines 594--594
+[] 
+ []
+
+[58 <C:/Users/Romilly/Desktop/report/images/periodic.png>]
+<images/superlattice-bands-k.png, id=287, 361.35pt x 215.80624pt>
+File: images/superlattice-bands-k.png Graphic file (type png)
+
+<use images/superlattice-bands-k.png>
+Package pdftex.def Info: images/superlattice-bands-k.png used on input line 604
+.
+(pdftex.def)             Requested size: 216.81168pt x 129.48474pt.
+
+<images/superlattice-bands.png, id=288, 361.35pt x 229.85875pt>
+File: images/superlattice-bands.png Graphic file (type png)
+
+<use images/superlattice-bands.png>
+Package pdftex.def Info: images/superlattice-bands.png used on input line 609.
+(pdftex.def)             Requested size: 216.81168pt x 137.91629pt.
+
+Overfull \hbox (22.29399pt too wide) in paragraph at lines 603--612
+[]$[]$   $[]$ 
+ []
+
+) [59 <C:/Users/Romilly/Desktop/report/images/superlattice-bands-k.png (PNG cop
+y)> <C:/Users/Romilly/Desktop/report/images/superlattice-bands.png (PNG copy)>]
+(C:\Users\Romilly\Desktop\report\asymmetrical-barrier/asymmetrical-barrier.tex
+Chapter 4.
+<images/asy-regions-flat.png, id=292, 501.875pt x 501.875pt>
+File: images/asy-regions-flat.png Graphic file (type png)
+
+<use images/asy-regions-flat.png>
+Package pdftex.def Info: images/asy-regions-flat.png used on input line 18.
+(pdftex.def)             Requested size: 225.84166pt x 225.84166pt.
+
+<images/asy-flat.png, id=293, 501.875pt x 301.125pt>
+File: images/asy-flat.png Graphic file (type png)
+ <use images/asy-flat.png>
+Package pdftex.def Info: images/asy-flat.png used on input line 23.
+(pdftex.def)             Requested size: 225.84166pt x 135.50499pt.
+
+Overfull \hbox (19.44853pt too wide) in paragraph at lines 17--26
+[]$[]$   $[]$ 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[60
+
+
+
+] [61 <C:/Users/Romilly/Desktop/report/images/asy-regions-flat.png> <C:/Users/R
+omilly/Desktop/report/images/asy-flat.png>]
+Overfull \hbox (20.47719pt too wide) in paragraph at lines 129--129
+[] 
+ []
+
+<images/asy-5.png, id=303, 361.35pt x 302.12875pt>
+File: images/asy-5.png Graphic file (type png)
+ <use images/asy-5.png>
+Package pdftex.def Info: images/asy-5.png used on input line 153.
+(pdftex.def)             Requested size: 180.67456pt x 151.064pt.
+
+<images/asy-6.png, id=304, 361.35pt x 302.12875pt>
+File: images/asy-6.png Graphic file (type png)
+ <use images/asy-6.png>
+Package pdftex.def Info: images/asy-6.png used on input line 158.
+(pdftex.def)             Requested size: 180.67456pt x 151.064pt.
+
+Overfull \hbox (19.44853pt too wide) in paragraph at lines 152--161
+[]$[]$   $[]$ 
+ []
+
+[62] <images/asy-1.png, id=308, 361.35pt x 302.12875pt>
+File: images/asy-1.png Graphic file (type png)
+ <use images/asy-1.png>
+Package pdftex.def Info: images/asy-1.png used on input line 168.
+(pdftex.def)             Requested size: 180.67456pt x 151.064pt.
+
+<images/asy-2.png, id=309, 361.35pt x 302.12875pt>
+File: images/asy-2.png Graphic file (type png)
+ <use images/asy-2.png>
+Package pdftex.def Info: images/asy-2.png used on input line 173.
+(pdftex.def)             Requested size: 180.67456pt x 151.064pt.
+
+Overfull \hbox (19.44853pt too wide) in paragraph at lines 167--176
+[]$[]$   $[]$ 
+ []
+
+<images/asy-3.png, id=310, 361.35pt x 302.12875pt>
+File: images/asy-3.png Graphic file (type png)
+ <use images/asy-3.png>
+Package pdftex.def Info: images/asy-3.png used on input line 181.
+(pdftex.def)             Requested size: 180.67456pt x 151.064pt.
+
+<images/asy-4.png, id=311, 361.35pt x 302.12875pt>
+File: images/asy-4.png Graphic file (type png)
+ <use images/asy-4.png>
+Package pdftex.def Info: images/asy-4.png used on input line 186.
+(pdftex.def)             Requested size: 180.67456pt x 151.064pt.
+
+Overfull \hbox (19.44853pt too wide) in paragraph at lines 180--189
+[]$[]$   $[]$ 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[63 <C:/Users/Romilly/Desktop/report/images/asy-5.png (PNG copy)> <C:/Users/Rom
+illy/Desktop/report/images/asy-6.png (PNG copy)>]
+<images/asy-7.png, id=315, 361.35pt x 302.12875pt>
+File: images/asy-7.png Graphic file (type png)
+ <use images/asy-7.png>
+Package pdftex.def Info: images/asy-7.png used on input line 225.
+(pdftex.def)             Requested size: 252.94327pt x 211.48868pt.
+
+[64 <C:/Users/Romilly/Desktop/report/images/asy-1.png (PNG copy)> <C:/Users/Rom
+illy/Desktop/report/images/asy-2.png (PNG copy)>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<images/asy-vg-3.png, id=319, 371.3875pt x 232.87pt>
+File: images/asy-vg-3.png Graphic file (type png)
+ <use images/asy-vg-3.png>
+Package pdftex.def Info: images/asy-vg-3.png used on input line 248.
+(pdftex.def)             Requested size: 129.98756pt x 81.5057pt.
+
+<images/asy-vg-4.png, id=320, 371.3875pt x 234.8775pt>
+File: images/asy-vg-4.png Graphic file (type png)
+
+<use images/asy-vg-4.png>
+Package pdftex.def Info: images/asy-vg-4.png used on input line 253.
+(pdftex.def)             Requested size: 129.98756pt x 82.20834pt.
+
+<images/asy-vg-5.png, id=321, 371.3875pt x 229.85875pt>
+File: images/asy-vg-5.png Graphic file (type png)
+
+<use images/asy-vg-5.png>
+Package pdftex.def Info: images/asy-vg-5.png used on input line 258.
+(pdftex.def)             Requested size: 129.98756pt x 80.45175pt.
+ [65 <C:/Users/Romilly/Desktop/report/images/asy-3.png (PNG copy)> <C:/Users/Ro
+milly/Desktop/report/images/asy-4.png (PNG copy)>]
+[66 <C:/Users/Romilly/Desktop/report/images/asy-7.png (PNG copy)> <C:/Users/Rom
+illy/Desktop/report/images/asy-vg-3.png (PNG copy)> <C:/Users/Romilly/Desktop/r
+eport/images/asy-vg-4.png (PNG copy)> <C:/Users/Romilly/Desktop/report/images/a
+sy-vg-5.png (PNG copy)>] <images/asy-v-1.png, id=329, 361.35pt x 205.76875pt>
+File: images/asy-v-1.png Graphic file (type png)
+
+<use images/asy-v-1.png>
+Package pdftex.def Info: images/asy-v-1.png used on input line 270.
+(pdftex.def)             Requested size: 126.4744pt x 72.02013pt.
+ <images/asy-v-2.png, id=330, 361.35pt x 205.76875pt>
+File: images/asy-v-2.png Graphic file (type png)
+
+<use images/asy-v-2.png>
+Package pdftex.def Info: images/asy-v-2.png used on input line 275.
+(pdftex.def)             Requested size: 126.4744pt x 72.02013pt.
+ <images/asy-v-3.png, id=331, 361.35pt x 206.7725pt>
+File: images/asy-v-3.png Graphic file (type png)
+
+<use images/asy-v-3.png>
+Package pdftex.def Info: images/asy-v-3.png used on input line 280.
+(pdftex.def)             Requested size: 126.4744pt x 72.37144pt.
+ <images/asy-t-1.png, id=332, 361.35pt x 210.7875pt>
+File: images/asy-t-1.png Graphic file (type png)
+
+<use images/asy-t-1.png>
+Package pdftex.def Info: images/asy-t-1.png used on input line 290.
+(pdftex.def)             Requested size: 126.4744pt x 73.77672pt.
+ <images/asy-t-2.png, id=333, 361.35pt x 217.81375pt>
+File: images/asy-t-2.png Graphic file (type png)
+
+<use images/asy-t-2.png>
+Package pdftex.def Info: images/asy-t-2.png used on input line 295.
+(pdftex.def)             Requested size: 126.4744pt x 76.23595pt.
+ <images/asy-t-3.png, id=334, 361.35pt x 212.795pt>
+File: images/asy-t-3.png Graphic file (type png)
+
+<use images/asy-t-3.png>
+Package pdftex.def Info: images/asy-t-3.png used on input line 300.
+(pdftex.def)             Requested size: 126.4744pt x 74.47935pt.
+ <images/asy-g-2.png, id=335, 361.35pt x 227.85126pt>
+File: images/asy-g-2.png Graphic file (type png)
+
+<use images/asy-g-2.png>
+Package pdftex.def Info: images/asy-g-2.png used on input line 316.
+(pdftex.def)             Requested size: 126.4744pt x 79.74913pt.
+ <images/asy-g-3.png, id=336, 361.35pt x 227.85126pt>
+File: images/asy-g-3.png Graphic file (type png)
+
+<use images/asy-g-3.png>
+Package pdftex.def Info: images/asy-g-3.png used on input line 321.
+(pdftex.def)             Requested size: 126.4744pt x 79.74913pt.
+ <images/asy-g-1.png, id=337, 361.35pt x 227.85126pt>
+File: images/asy-g-1.png Graphic file (type png)
+
+<use images/asy-g-1.png>
+Package pdftex.def Info: images/asy-g-1.png used on input line 326.
+(pdftex.def)             Requested size: 126.4744pt x 79.74913pt.
+) [67 <C:/Users/Romilly/Desktop/report/images/asy-v-1.png (PNG copy)> <C:/Users
+/Romilly/Desktop/report/images/asy-v-2.png (PNG copy)> <C:/Users/Romilly/Deskto
+p/report/images/asy-v-3.png (PNG copy)> <C:/Users/Romilly/Desktop/report/images
+/asy-t-1.png (PNG copy)> <C:/Users/Romilly/Desktop/report/images/asy-t-2.png (P
+NG copy)> <C:/Users/Romilly/Desktop/report/images/asy-t-3.png (PNG copy)>] [68 
+<C:/Users/Romilly/Desktop/report/images/asy-g-2.png (PNG copy)> <C:/Users/Romil
+ly/Desktop/report/images/asy-g-3.png (PNG copy)> <C:/Users/Romilly/Desktop/repo
+rt/images/asy-g-1.png (PNG copy)>]
+(C:\Users\Romilly\Desktop\report\experimental/experimental.tex
+Chapter 5.
+<images/exp-a-4.png, id=344, 361.35pt x 220.825pt>
+File: images/exp-a-4.png Graphic file (type png)
+ <use images/exp-a-4.png>
+Package pdftex.def Info: images/exp-a-4.png used on input line 18.
+(pdftex.def)             Requested size: 180.67456pt x 110.41222pt.
+
+<images/exp-pa-4.png, id=345, 295.99947pt x 315.22021pt>
+File: images/exp-pa-4.png Graphic file (type png)
+
+<use images/exp-pa-4.png>
+Package pdftex.def Info: images/exp-pa-4.png used on input line 23.
+(pdftex.def)             Requested size: 147.99936pt x 157.60971pt.
+ <images/exp-a-1.png, id=346, 361.35pt x 217.81375pt>
+File: images/exp-a-1.png Graphic file (type png)
+
+<use images/exp-a-1.png>
+Package pdftex.def Info: images/exp-a-1.png used on input line 34.
+(pdftex.def)             Requested size: 180.67456pt x 108.9066pt.
+
+<images/exp-pa-1.png, id=347, 192.20744pt x 167.60489pt>
+File: images/exp-pa-1.png Graphic file (type png)
+
+<use images/exp-pa-1.png>
+Package pdftex.def Info: images/exp-pa-1.png used on input line 39.
+(pdftex.def)             Requested size: 134.54428pt x 117.3226pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[69
+
+
+
+] <images/exp-a-2.png, id=351, 361.35pt x 240.9pt>
+File: images/exp-a-2.png Graphic file (type png)
+ <use images/exp-a-2.png>
+Package pdftex.def Info: images/exp-a-2.png used on input line 50.
+(pdftex.def)             Requested size: 180.67456pt x 120.44969pt.
+
+<images/exp-pa-2.png, id=352, 144.54pt x 143.00233pt>
+File: images/exp-pa-2.png Graphic file (type png)
+
+<use images/exp-pa-2.png>
+Package pdftex.def Info: images/exp-pa-2.png used on input line 55.
+(pdftex.def)             Requested size: 115.63214pt x 114.40201pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<images/exp-b-1.png, id=353, 361.35pt x 221.82875pt>
+File: images/exp-b-1.png Graphic file (type png)
+ <use images/exp-b-1.png>
+Package pdftex.def Info: images/exp-b-1.png used on input line 68.
+(pdftex.def)             Requested size: 180.67456pt x 110.9141pt.
+
+<images/exp-pb-1.png, id=354, 228.34245pt x 207.58405pt>
+File: images/exp-pb-1.png Graphic file (type png)
+
+<use images/exp-pb-1.png>
+Package pdftex.def Info: images/exp-pb-1.png used on input line 73.
+(pdftex.def)             Requested size: 137.00652pt x 124.55138pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<images/exp-c-1.png, id=355, 361.35pt x 228.855pt>
+File: images/exp-c-1.png Graphic file (type png)
+ <use images/exp-c-1.png>
+Package pdftex.def Info: images/exp-c-1.png used on input line 84.
+(pdftex.def)             Requested size: 180.67456pt x 114.42722pt.
+
+<images/exp-pc-1.png, id=356, 263.70862pt x 176.83086pt>
+File: images/exp-pc-1.png Graphic file (type png)
+
+<use images/exp-pc-1.png>
+Package pdftex.def Info: images/exp-pc-1.png used on input line 89.
+(pdftex.def)             Requested size: 184.59476pt x 123.78075pt.
+ [70 <C:/Users/Romilly/Desktop/report/images/exp-a-4.png (PNG copy)> <C:/Users/
+Romilly/Desktop/report/images/exp-pa-4.png>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<images/exp-c-2.png, id=361, 361.35pt x 201.75375pt>
+File: images/exp-c-2.png Graphic file (type png)
+ <use images/exp-c-2.png>
+Package pdftex.def Info: images/exp-c-2.png used on input line 100.
+(pdftex.def)             Requested size: 180.67456pt x 100.87662pt.
+
+<images/exp-pc-2.png, id=362, 191.43861pt x 183.75032pt>
+File: images/exp-pc-2.png Graphic file (type png)
+
+<use images/exp-pc-2.png>
+Package pdftex.def Info: images/exp-pc-2.png used on input line 105.
+(pdftex.def)             Requested size: 134.0061pt x 128.62433pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[71 <C:/Users/Romilly/Desktop/report/images/exp-a-1.png (PNG copy)> <C:/Users/R
+omilly/Desktop/report/images/exp-pa-1.png> <C:/Users/Romilly/Desktop/report/ima
+ges/exp-a-2.png (PNG copy)> <C:/Users/Romilly/Desktop/report/images/exp-pa-2.pn
+g>] <images/exp-d-1.png, id=368, 361.35pt x 227.85126pt>
+File: images/exp-d-1.png Graphic file (type png)
+
+<use images/exp-d-1.png>
+Package pdftex.def Info: images/exp-d-1.png used on input line 116.
+(pdftex.def)             Requested size: 180.67456pt x 113.92534pt.
+
+<images/exp-pd-1.png, id=369, 206.81522pt x 159.14777pt>
+File: images/exp-pd-1.png Graphic file (type png)
+
+<use images/exp-pd-1.png>
+Package pdftex.def Info: images/exp-pd-1.png used on input line 121.
+(pdftex.def)             Requested size: 165.45238pt x 127.31836pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[72 <C:/Users/Romilly/Desktop/report/images/exp-b-1.png (PNG copy)> <C:/Users/R
+omilly/Desktop/report/images/exp-pb-1.png> <C:/Users/Romilly/Desktop/report/ima
+ges/exp-c-1.png (PNG copy)> <C:/Users/Romilly/Desktop/report/images/exp-pc-1.pn
+g>] [73 <C:/Users/Romilly/Desktop/report/images/exp-c-2.png (PNG copy)> <C:/Use
+rs/Romilly/Desktop/report/images/exp-pc-2.png> <C:/Users/Romilly/Desktop/report
+/images/exp-d-1.png (PNG copy)> <C:/Users/Romilly/Desktop/report/images/exp-pd-
+1.png>]) [74] (C:\Users\Romilly\Desktop\report\weyl-fermions/weyl-fermions.tex
+Chapter 6.
+[75
+
+
+
+] <images/weyl-ek.png, id=386, 361.35pt x 237.88875pt>
+File: images/weyl-ek.png Graphic file (type png)
+
+<use images/weyl-ek.png>
+Package pdftex.def Info: images/weyl-ek.png used on input line 51.
+(pdftex.def)             Requested size: 252.94327pt x 166.52098pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[76] [77 <C:/Users/Romilly/Desktop/report/images/weyl-ek.png (PNG copy)>]
+[78] <images/weyl-step-phi-theta.png, id=397, 361.35pt x 302.12875pt>
+File: images/weyl-step-phi-theta.png Graphic file (type png)
+
+<use images/weyl-step-phi-theta.png>
+Package pdftex.def Info: images/weyl-step-phi-theta.png used on input line 172.
+
+(pdftex.def)             Requested size: 180.67456pt x 151.064pt.
+
+<images/weyl-step-phi-theta-2.png, id=398, 361.35pt x 302.12875pt>
+File: images/weyl-step-phi-theta-2.png Graphic file (type png)
+
+<use images/weyl-step-phi-theta-2.png>
+Package pdftex.def Info: images/weyl-step-phi-theta-2.png used on input line 17
+7.
+(pdftex.def)             Requested size: 180.67456pt x 151.064pt.
+
+Overfull \hbox (19.44853pt too wide) in paragraph at lines 171--180
+[]$[]$   $[]$ 
+ []
+
+<images/weyl-step-theta.png, id=399, 361.35pt x 302.12875pt>
+File: images/weyl-step-theta.png Graphic file (type png)
+
+<use images/weyl-step-theta.png>
+Package pdftex.def Info: images/weyl-step-theta.png used on input line 186.
+(pdftex.def)             Requested size: 180.67456pt x 151.064pt.
+
+<images/weyl-step-phi.png, id=400, 361.35pt x 302.12875pt>
+File: images/weyl-step-phi.png Graphic file (type png)
+
+<use images/weyl-step-phi.png>
+Package pdftex.def Info: images/weyl-step-phi.png used on input line 191.
+(pdftex.def)             Requested size: 180.67456pt x 151.064pt.
+
+Overfull \hbox (19.44853pt too wide) in paragraph at lines 185--194
+[]$[]$   $[]$ 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<images/weyl-symmetrical-flat.png, id=401, 501.875pt x 260.975pt>
+File: images/weyl-symmetrical-flat.png Graphic file (type png)
+
+<use images/weyl-symmetrical-flat.png>
+Package pdftex.def Info: images/weyl-symmetrical-flat.png used on input line 20
+8.
+(pdftex.def)             Requested size: 351.31009pt x 182.68126pt.
+ [79 <C:/Users/Romilly/Desktop/report/images/weyl-step-phi-theta.png (PNG copy)
+> <C:/Users/Romilly/Desktop/report/images/weyl-step-phi-theta-2.png (PNG copy)>
+] [80 <C:/Users/Romilly/Desktop/report/images/weyl-step-theta.png (PNG copy)> <
+C:/Users/Romilly/Desktop/report/images/weyl-step-phi.png (PNG copy)> <C:/Users/
+Romilly/Desktop/report/images/weyl-symmetrical-flat.png>] [81]
+<images/weyl-barrier-phi-theta.png, id=412, 361.35pt x 302.12875pt>
+File: images/weyl-barrier-phi-theta.png Graphic file (type png)
+
+<use images/weyl-barrier-phi-theta.png>
+Package pdftex.def Info: images/weyl-barrier-phi-theta.png used on input line 3
+10.
+(pdftex.def)             Requested size: 180.67456pt x 151.064pt.
+
+<images/weyl-barrier-phi-theta-2.png, id=413, 361.35pt x 302.12875pt>
+File: images/weyl-barrier-phi-theta-2.png Graphic file (type png)
+
+<use images/weyl-barrier-phi-theta-2.png>
+Package pdftex.def Info: images/weyl-barrier-phi-theta-2.png used on input line
+ 315.
+(pdftex.def)             Requested size: 180.67456pt x 151.064pt.
+
+Overfull \hbox (19.44853pt too wide) in paragraph at lines 309--318
+[]$[]$   $[]$ 
+ []
+
+<images/weyl-bar-phi.png, id=414, 361.35pt x 302.12875pt>
+File: images/weyl-bar-phi.png Graphic file (type png)
+
+<use images/weyl-bar-phi.png>
+Package pdftex.def Info: images/weyl-bar-phi.png used on input line 325.
+(pdftex.def)             Requested size: 180.67456pt x 151.064pt.
+
+<images/weyl-bar-theta.png, id=415, 361.35pt x 302.12875pt>
+File: images/weyl-bar-theta.png Graphic file (type png)
+
+<use images/weyl-bar-theta.png>
+Package pdftex.def Info: images/weyl-bar-theta.png used on input line 330.
+(pdftex.def)             Requested size: 180.67456pt x 151.064pt.
+
+Overfull \hbox (19.44853pt too wide) in paragraph at lines 324--333
+[]$[]$   $[]$ 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[82 <C:/Users/Romilly/Desktop/report/images/weyl-barrier-phi-theta.png (PNG cop
+y)> <C:/Users/Romilly/Desktop/report/images/weyl-barrier-phi-theta-2.png (PNG c
+opy)>] <images/weyl-res-1.png, id=419, 361.35pt x 228.855pt>
+File: images/weyl-res-1.png Graphic file (type png)
+
+<use images/weyl-res-1.png>
+Package pdftex.def Info: images/weyl-res-1.png used on input line 357.
+(pdftex.def)             Requested size: 180.67456pt x 114.42722pt.
+
+<images/weyl-res-2.png, id=420, 363.3575pt x 237.88875pt>
+File: images/weyl-res-2.png Graphic file (type png)
+
+<use images/weyl-res-2.png>
+Package pdftex.def Info: images/weyl-res-2.png used on input line 362.
+(pdftex.def)             Requested size: 181.6783pt x 118.94408pt.
+
+Overfull \hbox (19.44853pt too wide) in paragraph at lines 356--365
+[]$[]$   $[]$ 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[83 <C:/Users/Romilly/Desktop/report/images/weyl-bar-phi.png (PNG copy)> <C:/Us
+ers/Romilly/Desktop/report/images/weyl-bar-theta.png (PNG copy)>] [84 <C:/Users
+/Romilly/Desktop/report/images/weyl-res-1.png (PNG copy)> <C:/Users/Romilly/Des
+ktop/report/images/weyl-res-2.png>]
+<images/energy-bands-0.png, id=428, 361.35pt x 215.80624pt>
+File: images/energy-bands-0.png Graphic file (type png)
+
+<use images/energy-bands-0.png>
+Package pdftex.def Info: images/energy-bands-0.png used on input line 508.
+(pdftex.def)             Requested size: 216.81168pt x 129.48474pt.
+
+<images/energy-bands-ky0.png, id=429, 361.35pt x 215.80624pt>
+File: images/energy-bands-ky0.png Graphic file (type png)
+
+<use images/energy-bands-ky0.png>
+Package pdftex.def Info: images/energy-bands-ky0.png used on input line 513.
+(pdftex.def)             Requested size: 216.81168pt x 129.48474pt.
+
+Overfull \hbox (19.44853pt too wide) in paragraph at lines 507--516
+[]$[]$   $[]$ 
+ []
+
+[85] [86 <C:/Users/Romilly/Desktop/report/images/energy-bands-0.png (PNG copy)>
+ <C:/Users/Romilly/Desktop/report/images/energy-bands-ky0.png (PNG copy)>]
+<images/weyl-i-1.png, id=436, 361.35pt x 228.855pt>
+File: images/weyl-i-1.png Graphic file (type png)
+ <use images/weyl-i-1.png>
+Package pdftex.def Info: images/weyl-i-1.png used on input line 565.
+(pdftex.def)             Requested size: 198.74312pt x 125.87062pt.
+
+<images/weyl-i-2.png, id=437, 361.35pt x 228.855pt>
+File: images/weyl-i-2.png Graphic file (type png)
+ <use images/weyl-i-2.png>
+Package pdftex.def Info: images/weyl-i-2.png used on input line 570.
+(pdftex.def)             Requested size: 198.74312pt x 125.87062pt.
+
+Overfull \hbox (19.44853pt too wide) in paragraph at lines 564--573
+[]$[]$   $[]$ 
+ []
+
+<images/weyl-i-vsd.png, id=438, 361.35pt x 210.7875pt>
+File: images/weyl-i-vsd.png Graphic file (type png)
+
+<use images/weyl-i-vsd.png>
+Package pdftex.def Info: images/weyl-i-vsd.png used on input line 580.
+(pdftex.def)             Requested size: 198.74312pt x 115.93347pt.
+
+<images/weyl-i-t.png, id=439, 361.35pt x 213.79875pt>
+File: images/weyl-i-t.png Graphic file (type png)
+
+<use images/weyl-i-t.png>
+Package pdftex.def Info: images/weyl-i-t.png used on input line 585.
+(pdftex.def)             Requested size: 198.74312pt x 117.58966pt.
+
+Overfull \hbox (19.44853pt too wide) in paragraph at lines 579--588
+[]$[]$   $[]$ 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[87 <C:/Users/Romilly/Desktop/report/images/weyl-i-1.png (PNG copy)> <C:/Users/
+Romilly/Desktop/report/images/weyl-i-2.png (PNG copy)>]
+<images/cone.png, id=443, 579.16376pt x 231.86626pt>
+File: images/cone.png Graphic file (type png)
+ <use images/cone.png>
+Package pdftex.def Info: images/cone.png used on input line 611.
+(pdftex.def)             Requested size: 231.66139pt x 92.74484pt.
+
+<images/cone-z.png, id=444, 579.16376pt x 231.86626pt>
+File: images/cone-z.png Graphic file (type png)
+ <use images/cone-z.png>
+Package pdftex.def Info: images/cone-z.png used on input line 616.
+(pdftex.def)             Requested size: 231.66139pt x 92.74484pt.
+
+Overfull \hbox (19.44853pt too wide) in paragraph at lines 610--619
+[]$[]$   $[]$ 
+ []
+
+<images/step-l3.png, id=445, 361.35pt x 302.12875pt>
+File: images/step-l3.png Graphic file (type png)
+ <use images/step-l3.png>
+Package pdftex.def Info: images/step-l3.png used on input line 626.
+(pdftex.def)             Requested size: 198.74312pt x 166.17131pt.
+
+<images/phi-theta-step.png, id=446, 361.35pt x 302.12875pt>
+File: images/phi-theta-step.png Graphic file (type png)
+
+<use images/phi-theta-step.png>
+Package pdftex.def Info: images/phi-theta-step.png used on input line 631.
+(pdftex.def)             Requested size: 198.74312pt x 166.17131pt.
+
+Overfull \hbox (19.44853pt too wide) in paragraph at lines 625--634
+[]$[]$   $[]$ 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<images/barrier-l3.png, id=447, 361.35pt x 302.12875pt>
+File: images/barrier-l3.png Graphic file (type png)
+
+<use images/barrier-l3.png>
+Package pdftex.def Info: images/barrier-l3.png used on input line 641.
+(pdftex.def)             Requested size: 198.74312pt x 166.17131pt.
+
+<images/phi-theta-barrier.png, id=448, 361.35pt x 302.12875pt>
+File: images/phi-theta-barrier.png Graphic file (type png)
+
+<use images/phi-theta-barrier.png>
+Package pdftex.def Info: images/phi-theta-barrier.png used on input line 646.
+(pdftex.def)             Requested size: 198.74312pt x 166.17131pt.
+
+Overfull \hbox (19.44853pt too wide) in paragraph at lines 640--649
+[]$[]$   $[]$ 
+ []
+
+[88 <C:/Users/Romilly/Desktop/report/images/weyl-i-vsd.png (PNG copy)> <C:/User
+s/Romilly/Desktop/report/images/weyl-i-t.png (PNG copy)> <C:/Users/Romilly/Desk
+top/report/images/cone.png (PNG copy)> <C:/Users/Romilly/Desktop/report/images/
+cone-z.png (PNG copy)>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[89 <C:/Users/Romilly/Desktop/report/images/step-l3.png (PNG copy)> <C:/Users/R
+omilly/Desktop/report/images/phi-theta-step.png (PNG copy)>]) [90 <C:/Users/Rom
+illy/Desktop/report/images/barrier-l3.png (PNG copy)> <C:/Users/Romilly/Desktop
+/report/images/phi-theta-barrier.png (PNG copy)>]
+(C:\Users\Romilly\Desktop\report\wkb-potential-barrier/wkb-potential-barrier.te
+x
+Chapter 7.
+<images/wkb-barrier.png, id=459, 501.875pt x 301.125pt>
+File: images/wkb-barrier.png Graphic file (type png)
+
+<use images/wkb-barrier.png>
+Package pdftex.def Info: images/wkb-barrier.png used on input line 21.
+(pdftex.def)             Requested size: 301.12732pt x 180.67638pt.
+ [91
+
+
+
+ <C:/Users/Romilly/Desktop/report/images/wkb-barrier.png>] [92] [93]
+Overfull \hbox (1.69559pt too wide) in paragraph at lines 224--225
+\OT1/cmr/m/n/12 These wave-functions are to be used be-tween the sets of turn-i
+ng points, or in the Shrodinger
+ []
+
+[94] [95] [96] [97]
+Overfull \hbox (9.83765pt too wide) in paragraph at lines 479--479
+[] 
+ []
+
+[98] [99] [100] <images/wkb-transmission.png, id=492, 361.35pt x 230.8625pt>
+File: images/wkb-transmission.png Graphic file (type png)
+
+<use images/wkb-transmission.png>
+Package pdftex.def Info: images/wkb-transmission.png used on input line 589.
+(pdftex.def)             Requested size: 216.81168pt x 138.51855pt.
+
+<images/graphene-wkb-results-coshx10.png, id=493, 361.35pt x 230.8625pt>
+File: images/graphene-wkb-results-coshx10.png Graphic file (type png)
+
+<use images/graphene-wkb-results-coshx10.png>
+Package pdftex.def Info: images/graphene-wkb-results-coshx10.png used on input 
+line 597.
+(pdftex.def)             Requested size: 216.81168pt x 138.51855pt.
+
+<images/wkb-comparison.png, id=494, 271.0125pt x 173.14688pt>
+File: images/wkb-comparison.png Graphic file (type png)
+
+<use images/wkb-comparison.png>
+Package pdftex.def Info: images/wkb-comparison.png used on input line 601.
+(pdftex.def)             Requested size: 243.90898pt x 155.83075pt.
+
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 596--604
+[]$[]$ $[]$ 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[101 <C:/Users/Romilly/Desktop/report/images/wkb-transmission.png (PNG copy)>]
+<images/wkb-energy-levels.png, id=498, 361.35pt x 232.87pt>
+File: images/wkb-energy-levels.png Graphic file (type png)
+
+<use images/wkb-energy-levels.png>
+Package pdftex.def Info: images/wkb-energy-levels.png used on input line 612.
+(pdftex.def)             Requested size: 216.81168pt x 139.72307pt.
+ [102 <C:/Users/Romilly/Desktop/report/images/graphene-wkb-results-coshx10.png 
+(PNG copy)> <C:/Users/Romilly/Desktop/report/images/wkb-comparison.png> <C:/Use
+rs/Romilly/Desktop/report/images/wkb-energy-levels.png (PNG copy)>]
+<images/graphene-wkb-results-a1.png, id=504, 361.35pt x 230.8625pt>
+File: images/graphene-wkb-results-a1.png Graphic file (type png)
+
+<use images/graphene-wkb-results-a1.png>
+Package pdftex.def Info: images/graphene-wkb-results-a1.png used on input line 
+626.
+(pdftex.def)             Requested size: 216.81168pt x 138.51855pt.
+
+<images/graphene-wkb-results-a2.png, id=505, 361.35pt x 230.8625pt>
+File: images/graphene-wkb-results-a2.png Graphic file (type png)
+
+<use images/graphene-wkb-results-a2.png>
+Package pdftex.def Info: images/graphene-wkb-results-a2.png used on input line 
+630.
+(pdftex.def)             Requested size: 216.81168pt x 138.51855pt.
+
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 625--633
+[]$[]$ $[]$ 
+ []
+
+<images/graphene-wkb-energy-levels-a2.png, id=506, 361.35pt x 232.87pt>
+File: images/graphene-wkb-energy-levels-a2.png Graphic file (type png)
+
+<use images/graphene-wkb-energy-levels-a2.png>
+Package pdftex.def Info: images/graphene-wkb-energy-levels-a2.png used on input
+ line 639.
+(pdftex.def)             Requested size: 216.81168pt x 139.72307pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 640--640
+[]\OT1/cmr/m/n/12 Figure 7.6: |Bound states in-side a po-ten-tial bar-rier of t
+ype $\OML/cmm/m/it/12 U [] \OT1/cmr/m/n/12 =$
+ []
+
+
+Underfull \hbox (badness 4072) in paragraph at lines 640--640
+$[] []$ \OT1/cmr/m/n/12 cal-cu-lated from the Bohr-Sommerfeld con-di-tion in
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [103 <C:/Users/Romilly/Desktop/report/images/graphene-wkb-results-a1.png (PNG
+ copy)> <C:/Users/Romilly/Desktop/report/images/graphene-wkb-results-a2.png (PN
+G copy)>] [104 <C:/Users/Romilly/Desktop/report/images/graphene-wkb-energy-leve
+ls-a2.png (PNG copy)>]
+(C:\Users\Romilly\Desktop\report\conclusion/conclusion.tex
+Chapter 8.
+[105
+
+
+
+]) [106] (C:\Users\Romilly\Desktop\report\appendix/appendix.tex
+Chapter 9.
+[107
+
+
+
+] <images/s-wkb-potential-flat.png, id=522, 501.875pt x 301.125pt>
+File: images/s-wkb-potential-flat.png Graphic file (type png)
+
+<use images/s-wkb-potential-flat.png>
+Package pdftex.def Info: images/s-wkb-potential-flat.png used on input line 105
+.
+(pdftex.def)             Requested size: 301.12732pt x 180.67638pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[108] [109 <C:/Users/Romilly/Desktop/report/images/s-wkb-potential-flat.png>]
+[110] [111] <images/s-wkb-double-flat.png, id=537, 501.875pt x 301.125pt>
+File: images/s-wkb-double-flat.png Graphic file (type png)
+
+<use images/s-wkb-double-flat.png>
+Package pdftex.def Info: images/s-wkb-double-flat.png used on input line 308.
+(pdftex.def)             Requested size: 301.12732pt x 180.67638pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[112] [113 <C:/Users/Romilly/Desktop/report/images/s-wkb-double-flat.png>]
+[114] [115] [116] [117] [118] [119]) [120]
+Chapter 10.
+[121
+
+
+] [122] [123] [124] [125] [126] [127]
+(C:\Users\Romilly\Desktop\report\report.aux
+(C:\Users\Romilly\Desktop\report\abstract/abstract.aux)
+(C:\Users\Romilly\Desktop\report\aims/aims.aux)
+(C:\Users\Romilly\Desktop\report\novelty/novelty.aux)
+(C:\Users\Romilly\Desktop\report\publications/publications.aux)
+(C:\Users\Romilly\Desktop\report\acknowledgements/acknowledgements.aux)
+(C:\Users\Romilly\Desktop\report\introduction/introduction.aux)
+(C:\Users\Romilly\Desktop\report\potential-step/potential-step.aux)
+(C:\Users\Romilly\Desktop\report\potential-barrier/potential-barrier.aux)
+(C:\Users\Romilly\Desktop\report\asymmetrical-barrier/asymmetrical-barrier.aux)
+(C:\Users\Romilly\Desktop\report\experimental/experimental.aux)
+(C:\Users\Romilly\Desktop\report\weyl-fermions/weyl-fermions.aux)
+(C:\Users\Romilly\Desktop\report\wkb-potential-barrier/wkb-potential-barrier.au
+x) (C:\Users\Romilly\Desktop\report\conclusion/conclusion.aux)
+(C:\Users\Romilly\Desktop\report\appendix/appendix.aux))
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 5198 strings out of 494045
+ 86975 string characters out of 3145962
+ 138204 words of memory out of 3000000
+ 8174 multiletter control sequences out of 15000+200000
+ 15106 words of font info for 57 fonts, out of 3000000 for 9000
+ 715 hyphenation exceptions out of 8191
+ 36i,16n,43p,2388b,456s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C
+:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cmextra/cmex8.pfb>
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C
+:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/
+Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Pro
+gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Progra
+m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program F
+iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program File
+s (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files (x
+86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files (x86)/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2
+.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Program Files (x86)/MiKTe
+X 2.9/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
+Output written on report.pdf (128 pages, 2567466 bytes).
+PDF statistics:
+ 644 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 706 words of extra memory for PDF output out of 10000 (max. 10000000)
+
