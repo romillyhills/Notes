@@ -8,8 +8,10 @@
 - [Read and Write csv](#read-and-write-csv)
 - [Read json](#read-json)
 - [Read SQL](#read-sql)
+- [Requirements File](#requirements-file)
 - [S3](#s3)
 - [String Manipulation](#string-manipulation)
+- [Virtual Environments](#virtual-environments)
 
 ## Current Time
 
@@ -29,6 +31,10 @@ if __name__ == '__main__':
 ## Data Types
 
 ```python
+# Returns the data type
+print(type('my_string'))
+
+# Returns a boolean for data types
 if isinstance('my_string', tuple):
     print('this is tuple')
 ```
@@ -111,7 +117,21 @@ if __name__ == '__main__':
     cur.close()
 ```
 
+## Requirements File
+
+To create a requirements.txt used
+```
+pip freeze > requirements.txt
+```
+
+Packages can then be installed (to your venv) with 
+```
+pip install -r requirements.txt
+```
+
 ## S3
+
+Requires [AWS Boto3 Quickstart](https://boto3.amazonaws.com/v1/documentation/api/latest/guide/quickstart.html) credentials.
 
 ```python
 import boto3
@@ -138,3 +158,25 @@ print(my_string[:-3])
 # prints my_string without the first four characters
 print(my_string[4:])
 ```
+
+## Virtual Environments
+
+To create the virtual environment
+
+```python
+python -m venv my_venv
+```
+
+Enter the virtual environment in PowerShell with 
+
+```
+./my_venv/Scripts/Activate.ps1
+```
+
+You can now install packages to the virtual environment as normal. To exit the virtual environment 
+
+```
+deactivate
+```
+
+To the delete the virtual environment, you just need to delete the directory.
