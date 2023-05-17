@@ -2,8 +2,28 @@
 
 ## Contents
 
+- [Common Table Expression](#common-table-expression)
 - [COPY](#copy)
 - [Recursive CTE](#recursive-cte)
+- [Window Functions](#window-functions)
+
+## Common Table Expression
+
+Examples using [S3 http logs](https://docs.aws.amazon.com/AmazonS3/latest/userguide/LogFormat.html) loaded into a PostgreSQL localhost
+
+```sql
+WITH my_cte AS (
+    SELECT
+        requestdatetime::DATE, 
+        "key",
+        SUM(REPLACE(bytessent, '''-', '0')::INT) AS bytessent
+    FROM public.http_logs
+    GROUP BY
+        requestdatetime::DATE, 
+        "key"
+)
+SELECT * FROM my_cte
+```
 
 ## COPY
 
@@ -25,4 +45,30 @@ WITH RECURSIVE cte_name AS (
     ON cte_name.id = my_table.parent_id
 )
 SELECT * FROM cte_name;
+```
+
+## Window Functions
+
+Examples using [S3 http logs](https://docs.aws.amazon.com/AmazonS3/latest/userguide/LogFormat.html) loaded into a PostgreSQL localhost
+
+Standard aggregation
+```sql
+SELECT
+    requestdatetime::DATE, 
+    "key",
+    REPLACE(bytessent, '''-', '0')::INT,
+    AVG(REPLACE(bytessent, '''-', '0')::INT) OVER (PARTITION BY requestdatetime::date),
+    SUM(REPLACE(bytessent, '''-', '0')::INT) OVER (PARTITION BY requestdatetime::date)
+FROM public.http_logs
+```
+
+Examples with RANK and ROW_NUMBER
+```sql
+SELECT 
+    requestdatetime::DATE, 
+    "key",
+    REPLACE(bytessent, '''-', '0')::INT,
+    RANK() OVER (PARTITION BY requestdatetime::DATE ORDER BY REPLACE(bytessent, '''-', '0')::INT DESC),
+    ROW_NUMBER() OVER (PARTITION BY requestdatetime::DATE ORDER BY REPLACE(bytessent, '''-', '0')::INT DESC)
+FROM public.http_logs
 ```
