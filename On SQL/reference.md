@@ -4,8 +4,10 @@
 
 - [Common Table Expression](#common-table-expression)
 - [COPY](#copy)
+- [CREATE](#create)
 - [DynamoDB PartiQL](#dynamodb-partiql)
 - [Recursive CTE](#recursive-cte)
+- [Table Size](#table-size)
 - [Window Functions](#window-functions)
 
 ## Common Table Expression
@@ -31,6 +33,28 @@ SELECT * FROM my_cte
 ```sql
 COPY my_table FROM 'D:\input.csv'
 WITH QUOTE '"' CSV HEADER 
+```
+
+## CREATE
+
+An example with SERIAL as an incremental integer and an inline primary key
+
+```sql
+CREATE TABLE my_table (
+    my_pk SERIAL PRIMARY KEY,
+    my_column VARCHAR(300)
+)
+```
+
+An example with foreign keys and multi column primary key
+
+```sql
+CREATE TABLE my_table (
+    my_first_id INT REFERENCES my_first_table(my_first_id),
+    my_second_id INT REFERENCES my_second_table(my_second_id),
+    my_metric INT,
+    PRIMARY KEY (my_first_id, my_second_id)
+)
 ```
 
 ## DynamoDB PartiQL
@@ -59,6 +83,14 @@ WITH RECURSIVE cte_name AS (
     ON cte_name.id = my_table.parent_id
 )
 SELECT * FROM cte_name;
+```
+
+## Table Size
+
+For PostgreSQL
+
+```sql
+SELECT PG_SIZE_PRETTY(PG_RELATION_SIZE('my_table'))
 ```
 
 ## Window Functions
