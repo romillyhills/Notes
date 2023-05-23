@@ -6,6 +6,7 @@
 - [COPY](#copy)
 - [CREATE](#create)
 - [DynamoDB PartiQL](#dynamodb-partiql)
+- [EXISTS](#exists)
 - [Recursive CTE](#recursive-cte)
 - [Table Size](#table-size)
 - [Window Functions](#window-functions)
@@ -68,6 +69,23 @@ SELECT bucket_name, useragent, remoteip, referrer
 FROM "all_lambda_s3logs"
 WHERE BEGINS_WITH(requestdatetime, '2023-03-08')
 AND "key" = 'index.html'
+```
+
+## EXISTS
+
+```sql
+SELECT DISTINCT
+column_1,
+column_2,
+column_3
+FROM my_first_table
+WHERE NOT EXISTS (
+  SELECT 1
+  FROM my_second_table
+  WHERE my_first_table.column_1 = my_second_table.column_1
+  AND my_first_table.column_2 = my_second_table.column_2
+  AND my_first_table.column_3 = my_second_table.column_3
+)
 ```
 
 ## Recursive CTE
