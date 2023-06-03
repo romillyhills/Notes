@@ -4,6 +4,7 @@
 - [Current Time](#current-time)
 - [Data Types](#data-types)
 - [Dunder](#dunder)
+- [Errors and Assert](#errors-and-assert)
 - [Hello World](#hello_world)
 - [Read and Write csv](#read-and-write-csv)
 - [Read json](#read-json)
@@ -47,6 +48,23 @@ if isinstance('my_string', tuple):
 if __name__ == '__main__':
     # Will only run if script is run directly
     print('hello world')
+```
+
+## Errors and Assert
+
+```python
+def my_function(my_number):
+    return my_number
+
+if __name__ == '__main__':
+    try:
+        assert my_function(1) == 1, 'Expected 1'
+    except AssertionError as e:
+        print(f'Test failed: {e}')
+    except Exception as e:
+        print(e)
+    else:
+        print('Test passed')
 ```
 
 ## Hello World

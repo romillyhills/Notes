@@ -75,16 +75,16 @@ AND "key" = 'index.html'
 
 ```sql
 SELECT DISTINCT
-column_1,
-column_2,
-column_3
+    column_1,
+    column_2,
+    column_3
 FROM my_first_table
 WHERE NOT EXISTS (
-  SELECT 1
-  FROM my_second_table
-  WHERE my_first_table.column_1 = my_second_table.column_1
-  AND my_first_table.column_2 = my_second_table.column_2
-  AND my_first_table.column_3 = my_second_table.column_3
+    SELECT 1
+    FROM my_second_table
+    WHERE my_first_table.column_1 = my_second_table.column_1
+    AND my_first_table.column_2 = my_second_table.column_2
+    AND my_first_table.column_3 = my_second_table.column_3
 )
 ```
 
