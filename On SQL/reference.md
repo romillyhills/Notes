@@ -2,14 +2,29 @@
 
 ## Contents
 
+- [BETWEEN](#between)
 - [Common Table Expression](#common-table-expression)
 - [COPY](#copy)
 - [CREATE](#create)
 - [DynamoDB PartiQL](#dynamodb-partiql)
 - [EXISTS](#exists)
+- [Indexes](#indexes)
+- [Normalisation](#normalization)
 - [Recursive CTE](#recursive-cte)
 - [Table Size](#table-size)
 - [Window Functions](#window-functions)
+
+## BETWEEN
+
+The values can be numbers, text, or dates.
+
+Begin and end values are included. 
+
+```sql
+SELECT column_name
+FROM table_name
+WHERE column_name BETWEEN value1 AND value2; 
+```
 
 ## Common Table Expression
 
@@ -87,6 +102,36 @@ WHERE NOT EXISTS (
     AND my_first_table.column_3 = my_second_table.column_3
 )
 ```
+
+## Indexes
+
+PostgreSQL automatically creates a unique index when a unique constraint or primary key is defined for a table
+
+A single column index will be useful for optimising JOINs, WHERE and ORDER BY
+
+```sql
+CREATE INDEX my_index_name ON my_table (my_column);
+```
+
+or multi-column
+
+```sql
+CREATE INDEX my_index_name ON my_table (my_column_one, my_column_2);
+```
+
+will be useful when both columns are needed, with the left column being the main index. Multi column is good for multiple columns, but may be slower for single column use, especialy as columns move to the right of the index
+
+## Normalisation
+Three types of anomaly
+- Insertion anomaly: An item cannot be added as a dimension without a fact
+- Update anomaly: The same information can be found in multiple rows. If not all rows are updated there can be multiple versions of the same information
+- Deletion anomaly: Similar to insertion, if all facts for a certain dimension are removed, the dimension is removed
+
+### Normal Form One
+In the First normal form each field contains a single value
+
+### Normal Form Six
+The row contains the Primary Key, and at most one other attribute
 
 ## Recursive CTE
 
