@@ -5,6 +5,7 @@
 - [Data Types](#data-types)
 - [Dunder](#dunder)
 - [Errors and Assert](#errors-and-assert)
+- [Flatten Dictionary](#flatten-dictionary)
 - [Hello World](#hello_world)
 - [Read and Write csv](#read-and-write-csv)
 - [Read json](#read-json)
@@ -65,6 +66,42 @@ if __name__ == '__main__':
         print(e)
     else:
         print('Test passed')
+```
+
+## Flatten Dictionary
+
+A recursive function to flatten a dictionary (only tested to two levels). This function can also output keys for a header.
+
+```python
+def dict_flatten(my_dict, header=False, parent=''):
+    output = ''
+    if isinstance(my_dict, dict) and header:
+        key_list = my_dict.keys()
+        for key in key_list:
+            if isinstance(my_dict[key], dict):
+                output = output + ',' + dict_flatten(my_dict[key], True, parent+str(key)+'.')
+            else:
+                output = output + ',' + parent + str(key)
+    elif isinstance(my_dict, dict):
+        key_list = my_dict.keys()
+        for key in key_list:
+            if isinstance(my_dict[key], dict):
+                output = output + ',' + dict_flatten(my_dict[key])
+            else:
+                output = output + ',' + str(my_dict[key])
+    return output[1:]
+```
+
+Or with pandas
+
+```python
+import json
+import pandas as pd
+
+if __name__ == '__main__':
+    with open('my_file.json', encoding='utf-8') as file:
+        for line in file:
+            df = pd.json_normalize(json.loads(line))
 ```
 
 ## Hello World
