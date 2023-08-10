@@ -4,6 +4,7 @@
 - [Current Time](#current-time)
 - [Data Types](#data-types)
 - [Dunder](#dunder)
+- [Encryption](#encryption)
 - [Errors and Assert](#errors-and-assert)
 - [Flatten Dictionary](#flatten-dictionary)
 - [Hello World](#hello_world)
@@ -49,6 +50,23 @@ if isinstance('my_string', tuple):
 if __name__ == '__main__':
     # Will only run if script is run directly
     print('hello world')
+```
+
+## Encryption
+
+An example taken from the PyPI [cryptography](https://pypi.org/project/cryptography/) page
+
+```python
+from cryptography.fernet import Fernet
+
+if __name__ == '__main__':
+    # Put this somewhere safe!
+    key = Fernet.generate_key()
+    print(key)
+    f = Fernet(key)
+    token = f.encrypt(b'A really secret message. Not for prying eyes.')
+    print(token)
+    print(f.decrypt(token))
 ```
 
 ## Errors and Assert
