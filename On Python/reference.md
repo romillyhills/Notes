@@ -2,6 +2,7 @@
 
 ## Contents
 - [Current Time](#current-time)
+- [Data Frames](#data-frames)
 - [Data Types](#data-types)
 - [Dunder](#dunder)
 - [Encryption](#encryption)
@@ -29,6 +30,28 @@ if __name__ == '__main__':
     time.sleep(2.5)
     
     print(datetime.datetime.now())
+```
+
+## Data Frames
+
+Apply a function to a column of a Data Frame.
+```python
+import pandas as pd
+
+def myfunction(a):
+    return a * 2
+
+df = pd.DataFrame({
+    'column0': [0, 0, 0, 0],
+    'column1': [1, 1, 1, 1],
+    'column2': [2, 2, 2, 2]
+})
+
+print(df)
+
+df['column1'] = df['column1'].map(myfunction)
+
+print(df)
 ```
 
 ## Data Types
@@ -223,7 +246,10 @@ if __name__ == '__main__':
 
 ```python
 # define a string
-my_string = 'the quick fox jumps over the lazy dog'
+my_string = 'the quick brown fox jumps over the lazy dog'
+
+# concatenate strings
+print(my_string + ' my new string')
 
 # prints my_string without the last three characters
 print(my_string[:-3])
